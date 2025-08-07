@@ -4,30 +4,65 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
 
-  <!-- —— OpenGraph, Twitter Card & JSON-LD Schema —— -->
+  <!-- —— OpenGraph —— -->
   <meta property="og:site_name"   content="beareab">
   <meta property="og:title"       content="beareab – Discography">
-  <meta property="og:description" content="All releases by beareab: Psion, beareab / eyesplice split, and Solace.">
+  <meta property="og:description" content="All releases by beareab: Psion, beareab / eyesplice split, and Solace, each with embedded players.">
   <meta property="og:url"         content="https://beareab.com/discography.html">
   <meta property="og:type"        content="website">
   <meta property="og:image"       content="https://beareab.com/assets/psion-cover.jpg">
 
+  <!-- —— Twitter Card —— -->
   <meta name="twitter:card"        content="summary_large_image">
   <meta name="twitter:site"        content="@beareaband">
   <meta name="twitter:title"       content="beareab – Discography">
   <meta name="twitter:description" content="All releases by beareab: Psion, beareab / eyesplice split, and Solace.">
   <meta name="twitter:image"       content="https://beareab.com/assets/psion-cover.jpg">
 
+  <!-- —— JSON-LD structured data —— -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "MusicGroup",
-    "name": "beareab",
-    "url": "https://beareab.com/discography.html",
-    "album": [
-      { "@type": "MusicAlbum", "name": "Psion", "url": "https://beareab.com/" },
-      { "@type": "MusicAlbum", "name": "beareab / eyesplice split", "url": "https://beareab.com/discography.html" },
-      { "@type": "MusicAlbum", "name": "Solace", "url": "https://beareab.com/discography.html" }
+    "@graph": [
+      {
+        "@type": "MusicGroup",
+        "@id": "https://beareab.com/#beareab",
+        "name": "beareab",
+        "url": "https://beareab.com/discography.html",
+        "sameAs": [
+          "https://open.spotify.com/artist/6T4MfTo8RcW1jtS8Odu2M4",
+          "https://beareab.bandcamp.com",
+          "https://music.apple.com/us/artist/beareab/1820548198",
+          "https://www.instagram.com/gblongz",
+          "https://twitter.com/beareaband"
+        ],
+        "album": [
+          { "@type": "MusicAlbum", "@id": "https://beareab.com/#psion", "name": "Psion" },
+          { "@type": "MusicAlbum", "@id": "https://beareab.com/#eyesplicesplit", "name": "beareab / eyesplice split" },
+          { "@type": "MusicAlbum", "@id": "https://beareab.com/#solace", "name": "Solace" }
+        ]
+      },
+      {
+        "@type": "MusicAlbum",
+        "@id": "https://beareab.com/#psion",
+        "name": "Psion",
+        "byArtist": { "@id": "https://beareab.com/#beareab" },
+        "url": "https://beareab.com/"
+      },
+      {
+        "@type": "MusicAlbum",
+        "@id": "https://beareab.com/#eyesplicesplit",
+        "name": "beareab / eyesplice split",
+        "byArtist": { "@id": "https://beareab.com/#beareab" },
+        "url": "https://beareab.com/discography.html"
+      },
+      {
+        "@type": "MusicAlbum",
+        "@id": "https://beareab.com/#solace",
+        "name": "Solace",
+        "byArtist": { "@id": "https://beareab.com/#beareab" },
+        "url": "https://beareab.com/discography.html"
+      }
     ]
   }
   </script>
