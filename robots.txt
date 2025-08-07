@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 # Point to your sitemap for faster indexing
-Sitemap: https://beareab.neocities.org/sitemap.xml
+Sitemap: https://beareab.com/sitemap.xml
