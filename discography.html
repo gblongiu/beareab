@@ -20,52 +20,73 @@
   <meta name="twitter:image"       content="https://beareab.com/assets/psion-cover.jpg">
 
   <!-- —— JSON-LD structured data —— -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "MusicGroup",
-        "@id": "https://beareab.com/#beareab",
-        "name": "beareab",
-        "url": "https://beareab.com/discography.html",
-        "sameAs": [
-          "https://open.spotify.com/artist/6T4MfTo8RcW1jtS8Odu2M4",
-          "https://beareab.bandcamp.com",
-          "https://music.apple.com/us/artist/beareab/1820548198",
-          "https://www.instagram.com/gblongz",
-          "https://twitter.com/beareaband"
-        ],
-        "album": [
-          { "@type": "MusicAlbum", "@id": "https://beareab.com/#psion", "name": "Psion" },
-          { "@type": "MusicAlbum", "@id": "https://beareab.com/#eyesplicesplit", "name": "beareab / eyesplice split" },
-          { "@type": "MusicAlbum", "@id": "https://beareab.com/#solace", "name": "Solace" }
-        ]
-      },
-      {
-        "@type": "MusicAlbum",
-        "@id": "https://beareab.com/#psion",
-        "name": "Psion",
-        "byArtist": { "@id": "https://beareab.com/#beareab" },
-        "url": "https://beareab.com/"
-      },
-      {
-        "@type": "MusicAlbum",
-        "@id": "https://beareab.com/#eyesplicesplit",
-        "name": "beareab / eyesplice split",
-        "byArtist": { "@id": "https://beareab.com/#beareab" },
-        "url": "https://beareab.com/discography.html"
-      },
-      {
-        "@type": "MusicAlbum",
-        "@id": "https://beareab.com/#solace",
-        "name": "Solace",
-        "byArtist": { "@id": "https://beareab.com/#beareab" },
-        "url": "https://beareab.com/discography.html"
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MusicGroup",
+      "@id": "https://beareab.com/#beareab",
+      "name": "beareab",
+      "url": "https://beareab.com/",
+      "image": "https://beareab.com/assets/headshot.jpg",
+      "genre": ["Post-hardcore", "Skramz", "Noise Rock", "Experimental"],
+      "description": "beareab is the solo project of Gabriel Long, blending cathartic skramz with experimental and emotive noise rock.",
+      "sameAs": [
+        "https://open.spotify.com/artist/6T4MfTo8RcW1jtS8Odu2M4",
+        "https://beareab.bandcamp.com",
+        "https://music.apple.com/us/artist/beareab/1820548198",
+        "https://www.instagram.com/gblongz",
+        "https://twitter.com/beareaband"
+      ],
+      "album": [
+        { "@id": "https://beareab.com/#psion" },
+        { "@id": "https://beareab.com/#eyesplicesplit" },
+        { "@id": "https://beareab.com/#solace" }
+      ]
+    },
+    {
+      "@type": "MusicAlbum",
+      "@id": "https://beareab.com/#psion",
+      "name": "Psion",
+      "datePublished": "2025-07-23",
+      "url": "https://beareab.com/",
+      "image": "https://beareab.com/assets/psion-cover.jpg",
+      "byArtist": { "@id": "https://beareab.com/#beareab" },
+      "genre": ["Post-hardcore", "Skramz", "Noise Rock", "Experimental"]
+    },
+    {
+      "@type": "MusicAlbum",
+      "@id": "https://beareab.com/#eyesplicesplit",
+      "name": "beareab / eyesplice split",
+      "datePublished": "2025-07-02",
+      "url": "https://beareab.com/discography.html",
+      "image": "https://beareab.com/assets/split-cover.jpg",
+      "byArtist": { "@id": "https://beareab.com/#beareab" },
+      "genre": ["Screamo", "Skramz", "Emoviolence"]
+    },
+    {
+      "@type": "MusicAlbum",
+      "@id": "https://beareab.com/#solace",
+      "name": "Solace",
+      "datePublished": "2025-06-14",
+      "url": "https://beareab.com/discography.html",
+      "image": "https://beareab.com/assets/solace-cover.jpg",
+      "byArtist": { "@id": "https://beareab.com/#beareab" },
+      "genre": ["Post-hardcore", "Noise Rock", "Emotional Hardcore"]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://beareab.com/discography.html",
+      "name": "Discography – beareab",
+      "url": "https://beareab.com/discography.html",
+      "mainEntity": {
+        "@id": "https://beareab.com/#beareab"
       }
-    ]
-  }
-  </script>
+    }
+  ]
+}
+</script>
 
   <title>Discography – beareab</title>
   <meta name="description" content="All releases by beareab: Psion, beareab / eyesplice split, and Solace.">
