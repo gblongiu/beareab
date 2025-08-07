@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
 
-  <!-- —— OpenGraph, Twitter Card & JSON-LD Schema —— -->
+  <!-- —— OpenGraph —— -->
   <meta property="og:site_name"   content="beareab">
   <meta property="og:title"       content="beareab – About Gabriel Long">
   <meta property="og:description" content="Biography and background of Gabriel Long, the artist behind beareab.">
@@ -12,20 +12,29 @@
   <meta property="og:type"        content="profile">
   <meta property="og:image"       content="https://beareab.com/assets/headshot.jpg">
 
+  <!-- —— Twitter Card —— -->
   <meta name="twitter:card"        content="summary_large_image">
   <meta name="twitter:site"        content="@beareaband">
   <meta name="twitter:title"       content="beareab – About Gabriel Long">
   <meta name="twitter:description" content="Musician, producer, and the creative force behind beareab.">
   <meta name="twitter:image"       content="https://beareab.com/assets/headshot.jpg">
 
+  <!-- —— JSON-LD structured data —— -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Person",
+    "@id": "https://beareab.com/#gabriellong",
     "name": "Gabriel Long",
     "url": "https://beareab.com/about.html",
     "image": "https://beareab.com/assets/headshot.jpg",
     "jobTitle": "Musician, Producer",
+    "worksFor": {
+      "@type": "MusicGroup",
+      "@id": "https://beareab.com/#beareab",
+      "name": "beareab",
+      "url": "https://beareab.com/"
+    },
     "sameAs": [
       "https://open.spotify.com/artist/6T4MfTo8RcW1jtS8Odu2M4",
       "https://www.instagram.com/gblongz",
