@@ -1,0 +1,6 @@
+# Allow all search engines and AI crawlers
+User-agent: *
+Allow: /
+
+# Point to your sitemap for faster indexing
+Sitemap: https://beareab.neocities.org/sitemap.xml
