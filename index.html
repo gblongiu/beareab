@@ -20,16 +20,35 @@
   <meta name="twitter:image"       content="https://beareab.com/assets/psion-cover.jpg">
 
   <!-- —— JSON-LD structured data —— -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "MusicAlbum",
-    "@id": "https://beareab.com/#psion",
-    "name": "Psion",
-    "byArtist": {
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MusicAlbum",
+      "@id": "https://beareab.com/#psion",
+      "name": "Psion",
+      "url": "https://beareab.com/",
+      "image": "https://beareab.com/assets/psion-cover.jpg",
+      "datePublished": "2025-08-06",
+      "genre": ["Post-hardcore", "Skramz", "Noise Rock", "Experimental"],
+      "byArtist": {
+        "@id": "https://beareab.com/#beareab"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://beareab.com/"
+      }
+    },
+    {
       "@type": "MusicGroup",
       "@id": "https://beareab.com/#beareab",
       "name": "beareab",
+      "alternateName": "Gabriel Long",
+      "url": "https://beareab.com/",
+      "image": "https://beareab.com/assets/headshot.jpg",
+      "description": "beareab is the solo project of Gabriel Long, fusing skramz, noise rock, and post-hardcore into a raw and vulnerable emotional experience.",
+      "genre": ["Post-hardcore", "Skramz", "Noise Rock", "Experimental"],
       "founder": {
         "@type": "Person",
         "@id": "https://beareab.com/#gabriellong",
@@ -43,12 +62,19 @@
         "https://twitter.com/beareaband"
       ]
     },
-    "url": "https://beareab.com/",
-    "image": "https://beareab.com/assets/psion-cover.jpg",
-    "datePublished": "2025-08-06",
-    "mainEntityOfPage": "https://beareab.com/"
-  }
-  </script>
+    {
+      "@type": "Person",
+      "@id": "https://beareab.com/#gabriellong",
+      "name": "Gabriel Long",
+      "url": "https://beareab.com/",
+      "sameAs": [
+        "https://www.instagram.com/gblongz",
+        "https://twitter.com/beareaband"
+      ]
+    }
+  ]
+}
+</script>
 
   <title>beareab – Psion</title>
   <meta name="description" content="Psion spans five years of fracture and reconstruction… An emotive guitar journey by Gabriel Long.">
