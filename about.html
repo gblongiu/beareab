@@ -20,28 +20,59 @@
   <meta name="twitter:image"       content="https://beareab.com/assets/headshot.jpg">
 
   <!-- —— JSON-LD structured data —— -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "@id": "https://beareab.com/#gabriellong",
-    "name": "Gabriel Long",
-    "url": "https://beareab.com/about.html",
-    "image": "https://beareab.com/assets/headshot.jpg",
-    "jobTitle": "Musician, Producer",
-    "worksFor": {
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://beareab.com/#gabriellong",
+      "name": "Gabriel Long",
+      "url": "https://beareab.com/about.html",
+      "image": "https://beareab.com/assets/headshot.jpg",
+      "jobTitle": "Musician, Producer",
+      "description": "Gabriel Long is the sole creator behind beareab, an experimental solo project rooted in skramz, noise rock, and emotional catharsis.",
+      "sameAs": [
+        "https://open.spotify.com/artist/6T4MfTo8RcW1jtS8Odu2M4",
+        "https://beareab.bandcamp.com",
+        "https://music.apple.com/us/artist/beareab/1820548198",
+        "https://www.instagram.com/gblongz",
+        "https://twitter.com/beareaband"
+      ],
+      "worksFor": {
+        "@id": "https://beareab.com/#beareab"
+      }
+    },
+    {
       "@type": "MusicGroup",
       "@id": "https://beareab.com/#beareab",
       "name": "beareab",
-      "url": "https://beareab.com/"
+      "founder": {
+        "@id": "https://beareab.com/#gabriellong"
+      },
+      "url": "https://beareab.com/",
+      "genre": ["Skramz", "Post-hardcore", "Experimental", "Noise Rock"],
+      "image": "https://beareab.com/assets/headshot.jpg",
+      "sameAs": [
+        "https://open.spotify.com/artist/6T4MfTo8RcW1jtS8Odu2M4",
+        "https://beareab.bandcamp.com",
+        "https://music.apple.com/us/artist/beareab/1820548198",
+        "https://www.instagram.com/gblongz",
+        "https://twitter.com/beareaband"
+      ]
     },
-    "sameAs": [
-      "https://open.spotify.com/artist/6T4MfTo8RcW1jtS8Odu2M4",
-      "https://www.instagram.com/gblongz",
-      "https://twitter.com/beareaband"
-    ]
-  }
-  </script>
+    {
+      "@type": "WebPage",
+      "@id": "https://beareab.com/about.html",
+      "name": "About Gabriel Long – beareab",
+      "url": "https://beareab.com/about.html",
+      "mainEntity": {
+        "@id": "https://beareab.com/#gabriellong"
+      }
+    }
+  ]
+}
+</script>
 
   <title>About – beareab</title>
   <meta name="description" content="Biography and background of Gabriel Long, the artist behind beareab.">
