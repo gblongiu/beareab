@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
 
-  <!-- —— OpenGraph, Twitter Card & JSON-LD Schema —— -->
+  <!-- —— OpenGraph —— -->
   <meta property="og:site_name"   content="beareab">
   <meta property="og:title"       content="beareab – Other Projects">
   <meta property="og:description" content="Collaborations and side projects featuring Gabriel Long.">
@@ -12,27 +12,71 @@
   <meta property="og:type"        content="website">
   <meta property="og:image"       content="https://beareab.com/assets/longtooth-cover.jpg">
 
+  <!-- —— Twitter Card —— -->
   <meta name="twitter:card"        content="summary_large_image">
   <meta name="twitter:site"        content="@beareaband">
   <meta name="twitter:title"       content="beareab – Other Projects">
   <meta name="twitter:description" content="Collaborations and side projects featuring Gabriel Long.">
   <meta name="twitter:image"       content="https://beareab.com/assets/longtooth-cover.jpg">
 
+  <!-- —— JSON-LD structured data —— -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
+    "@id": "https://beareab.com/#projects",
     "name": "Other Projects",
     "url": "https://beareab.com/projects.html",
     "hasPart": {
       "@type": "MusicAlbum",
+      "@id": "https://beareab.com/#longtooth",
       "name": "The Imitation Zone",
       "byArtist": {
         "@type": "MusicGroup",
-        "name": "The Longtooth Collective"
+        "@id": "https://beareab.com/#longtooth-group",
+        "name": "The Longtooth Collective",
+        "sameAs": [
+          "https://thelongtoothcollective.bandcamp.com",
+          "https://open.spotify.com/artist/5wCavhe5jrVaG5GefNZsNE",
+          "https://music.apple.com/us/artist/the-longtooth-collective/1830108674",
+          "https://rateyourmusic.com/artist/the-longtooth-collective"
+        ]
       },
       "url": "https://thelongtoothcollective.bandcamp.com/album/the-imitation-zone",
-      "datePublished": "2008-04-04"
+      "image": "https://beareab.com/assets/longtooth-cover.jpg",
+      "datePublished": "2008-04-04",
+      "track": [
+        {
+          "@type": "MusicRecording",
+          "name": "De Lune",
+          "byArtist": { "@type": "Person", "name": "Harvey Rañola" }
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Medic",
+          "byArtist": { "@type": "Person", "name": "Paul Isham" },
+          "additionalProperty": {
+            "@type": "PropertyValue",
+            "name": "Backing vocals & guest guitar",
+            "value": "Gabriel Long"
+          }
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Seventh Reincarnation",
+          "byArtist": { "@type": "Person", "name": "Gabriel Long" },
+          "additionalProperty": {
+            "@type": "PropertyValue",
+            "name": "Backing vocals",
+            "value": "Paul Isham"
+          }
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "You're Open",
+          "byArtist": { "@type": "Person", "name": "Paul Isham" }
+        }
+      ]
     }
   }
   </script>
