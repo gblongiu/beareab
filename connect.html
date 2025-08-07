@@ -20,27 +20,43 @@
   <meta name="twitter:image"       content="https://beareab.com/assets/psion-cover.jpg">
 
   <!-- —— JSON-LD structured data —— -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "MusicGroup",
-    "@id": "https://beareab.com/#beareab",
-    "name": "beareab",
-    "url": "https://beareab.com/connect.html",
-    "sameAs": [
-      "https://open.spotify.com/artist/6T4MfTo8RcW1jtS8Odu2M4",
-      "https://beareab.bandcamp.com",
-      "https://music.apple.com/us/artist/beareab/1820548198",
-      "https://www.instagram.com/gblongz",
-      "https://twitter.com/beareaband",
-      "https://www.youtube.com/@beareaband",
-      "https://www.tiktok.com/@beareaband",
-      "https://bsky.app/profile/beareab.bsky.social",
-      "https://rateyourmusic.com/artist/beareab",
-      "https://musicbrainz.org/artist/31afd001-7593-42e9-bf30-357fe4d3602a"
-    ]
-  }
-  </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MusicGroup",
+      "@id": "https://beareab.com/#beareab",
+      "name": "beareab",
+      "url": "https://beareab.com/",
+      "genre": ["Skramz", "Post-hardcore", "Experimental", "Noise Rock"],
+      "sameAs": [
+        "https://open.spotify.com/artist/6T4MfTo8RcW1jtS8Odu2M4",
+        "https://beareab.bandcamp.com",
+        "https://music.apple.com/us/artist/beareab/1820548198",
+        "https://tidal.com/artist/62132055",
+        "https://www.deezer.com/mx/artist/330585431",
+        "https://www.youtube.com/@beareaband",
+        "https://www.instagram.com/gblongz",
+        "https://twitter.com/beareaband",
+        "https://www.tiktok.com/@beareaband",
+        "https://bsky.app/profile/beareab.bsky.social",
+        "https://rateyourmusic.com/artist/beareab",
+        "https://musicbrainz.org/artist/31afd001-7593-42e9-bf30-357fe4d3602a"
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://beareab.com/connect.html",
+      "url": "https://beareab.com/connect.html",
+      "name": "Connect with beareab",
+      "about": {
+        "@id": "https://beareab.com/#beareab"
+      }
+    }
+  ]
+}
+</script>
 
   <title>Connect – beareab</title>
   <meta name="description" content="Follow beareab on all your favorite social and streaming platforms.">
