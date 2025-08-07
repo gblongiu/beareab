@@ -12,60 +12,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   <!-- Unified styles -->
   <link rel="stylesheet" href="style.css">
-
-  <!-- Page-specific styling -->
-  <style>
-    /* —— Projects Page Styling —— */
-    .projects-hero {
-      background: #f4f4f4;
-      text-align: center;
-      padding: 3rem 1rem;
-    }
-    .projects-hero h2 {
-      font-size: 2.5rem;
-      color: #111;
-      margin-bottom: 0.5rem;
-    }
-    .projects-hero p {
-      font-size: 1.1rem;
-      color: #555;
-    }
-
-    .project-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 2rem;
-      max-width: 900px;
-      margin: 2rem auto;
-      align-items: start;
-    }
-    .project-grid iframe {
-      width: 100%;
-      height: auto;
-      border: none;
-      border-radius: 8px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    }
-    .project-grid .description h3 {
-      margin-top: 0;
-      font-size: 1.75rem;
-      color: #0687f5;
-    }
-    .project-grid .description p + p,
-    .project-grid .description ul + p {
-      margin-top: 1rem;
-    }
-    .project-grid .description ul {
-      margin: 1rem 0;
-      padding-left: 1.25rem;
-    }
-
-    @media (max-width: 600px) {
-      .project-grid {
-        grid-template-columns: 1fr;
-      }
-    }
-  </style>
 </head>
 <body>
   <!-- shared header -->
@@ -81,27 +27,20 @@
     </nav>
   </header>
 
-  <main>
-    <section class="projects-hero">
-      <h2>Other Projects</h2>
-      <p>Collaborations and side projects featuring Gabriel Long</p>
-    </section>
-
-    <div class="project-grid">
+  <main class="container">
+    <h2 class="release-title">Other Projects</h2>
+    <div class="release-spotlight">
       <!-- Bandcamp Embed -->
-      <iframe style="border: 0; width: 350px; height: 470px;"
+      <iframe
         src="https://bandcamp.com/EmbeddedPlayer/album=2276893227/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
         seamless>
       </iframe>
 
-      <!-- Unified Description -->
+      <!-- Description matching your home-page styling -->
       <div class="description">
-        <h3>The Longtooth Collective</h3>
-        <p>Forged in the Bay Area underground by guitarist Jon Howell, drummer Dan Sneddon, and bassist Matt O’Brien, The Longtooth Collective was never a band but a spontaneous rupture of noise rock, math rock, and post-hardcore.</p>
-        <p>They enlisted three vocalists: Paul Isham (Curse of the Zero), Harvey Rañola (Fair Haired Child), and Gabriel Long (beareab). Each vocalist shifting the emotional register with every track. The result is a blistering document of tension and dissonance.</p>
-        <p>Recorded in 2008 and shelved for over a decade, <em>The Imitation Zone</em> isn’t a comeback but a transmission of jagged time signatures, broken narratives, and the slow collapse of identity under grinding sludge riffs.</p>
-        <p>Howell’s angular phrasing carves out space, O’Brien’s low end bulldozes through the mix, and Sneddon’s drumming is always searching and shifting. Turning each song into an unrepeatable battleground of intention.</p>
-        <p>Though short-lived, these sessions echo in bands like Kowloon Walled City, Tigon, Early Graves, Less Art, Ex Everything, and beareab.</p>
+        <p><strong>The Longtooth Collective</strong> was a spontaneous rupture in the Bay Area underground. Made up of Jon Howell (guitar), Dan Sneddon (drums) and Matt O’Brien (bass), also joined by vocalists Paul Isham, Harvey Rañola, and Gabriel Long.</p>
+        <p>Recorded in 2008 and shelved for over a decade, it isn’t a comeback but a transmission of jagged time signatures, broken narratives, and the slow collapse of identity under grinding sludge riffs.</p>
+        <p>Howell’s angular phrasing carves out space, O’Brien’s low end bulldozes through the mix, and Sneddon’s drumming is always searching. Each song becomes an unrepeatable battleground of intention.</p>
         <p><strong>Release date:</strong> April 4, 2008</p>
         <ul>
           <li>Guitar: Jon Howell</li>
