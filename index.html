@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
 
-  <!-- —— OpenGraph, Twitter Card & JSON-LD Schema —— -->
+  <!-- —— OpenGraph —— -->
   <meta property="og:site_name"   content="beareab">
   <meta property="og:title"       content="beareab – Psion">
   <meta property="og:description" content="Psion spans five years of fracture and reconstruction… An emotive guitar journey by Gabriel Long.">
@@ -12,31 +12,41 @@
   <meta property="og:type"        content="music.album">
   <meta property="og:image"       content="https://beareab.com/assets/psion-cover.jpg">
 
+  <!-- —— Twitter Card —— -->
   <meta name="twitter:card"        content="summary_large_image">
   <meta name="twitter:site"        content="@beareaband">
   <meta name="twitter:title"       content="beareab – Psion">
-  <meta name="twitter:description" content="Psion spans five years of fracture and reconstruction…">
+  <meta name="twitter:description" content="Psion spans five years of fracture and reconstruction… An emotive guitar journey by Gabriel Long.">
   <meta name="twitter:image"       content="https://beareab.com/assets/psion-cover.jpg">
 
+  <!-- —— JSON-LD structured data —— -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "MusicAlbum",
+    "@id": "https://beareab.com/#psion",
     "name": "Psion",
     "byArtist": {
       "@type": "MusicGroup",
-      "name": "beareab"
+      "@id": "https://beareab.com/#beareab",
+      "name": "beareab",
+      "founder": {
+        "@type": "Person",
+        "@id": "https://beareab.com/#gabriellong",
+        "name": "Gabriel Long"
+      },
+      "sameAs": [
+        "https://open.spotify.com/artist/6T4MfTo8RcW1jtS8Odu2M4",
+        "https://beareab.bandcamp.com",
+        "https://music.apple.com/us/artist/beareab/1820548198",
+        "https://www.instagram.com/gblongz",
+        "https://twitter.com/beareaband"
+      ]
     },
     "url": "https://beareab.com/",
     "image": "https://beareab.com/assets/psion-cover.jpg",
-    "datePublished": "2025-XX-XX",
-    "sameAs": [
-      "https://open.spotify.com/artist/6T4MfTo8RcW1jtS8Odu2M4",
-      "https://beareab.bandcamp.com",
-      "https://music.apple.com/us/artist/beareab/1820548198",
-      "https://www.instagram.com/gblongz",
-      "https://twitter.com/beareaband"
-    ]
+    "datePublished": "2025-08-06",
+    "mainEntityOfPage": "https://beareab.com/"
   }
   </script>
 
