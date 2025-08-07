@@ -7,9 +7,7 @@
 }
 
 /* —— Reset & Base —— */
-*,
-*::before,
-*::after {
+*, *::before, *::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -26,8 +24,7 @@ a {
 }
 
 /* —— Unified Header & Footer —— */
-.site-header,
-.site-footer {
+.site-header, .site-footer {
   background: #fff;
   text-align: center;
   padding: 1.5rem 1rem;
@@ -199,11 +196,46 @@ a {
   color: #666;
 }
 
+/* —— Projects Page —— */
+.project-hero {
+  background: #f4f4f4;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+.project-hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--text);
+}
+.project-hero p {
+  font-size: 1.1rem;
+  color: #555;
+}
+.project-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+  align-items: start;
+  max-width: 900px;
+  margin: 0 auto 3rem;
+}
+.embed-player iframe {
+  width: 100%;
+  aspect-ratio: 4/5;               /* taller box for less scrolling */
+  border: none;
+  border-radius: var(--radius);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
 /* —— Responsive Tweaks —— */
 @media (max-width: 700px) {
   .release-spotlight,
   .embed-grid {
     grid-template-columns: 1fr;
+  }
+  .project-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
   }
 }
 @media (max-width: 600px) {
