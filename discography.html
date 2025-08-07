@@ -10,52 +10,77 @@
   <meta property="og:description" content="All releases by beareab: Psion, beareab / eyesplice split, and Solace, each with embedded players.">
   <meta property="og:url"         content="https://beareab.com/discography.html">
   <meta property="og:type"        content="website">
-  <meta property="og:image"       content="https://beareab.com/assets/psion-cover.jpg">
+  <meta property="og:image"       content="https://beareab.com/assets/psion.jpg">
 
   <!-- —— Twitter Card —— -->
   <meta name="twitter:card"        content="summary_large_image">
   <meta name="twitter:site"        content="@beareaband">
   <meta name="twitter:title"       content="beareab – Discography">
   <meta name="twitter:description" content="All releases by beareab: Psion, beareab / eyesplice split, and Solace.">
-  <meta name="twitter:image"       content="https://beareab.com/assets/psion-cover.jpg">
+  <meta name="twitter:image"       content="https://beareab.com/assets/psion.jpg">
 
   <!-- —— JSON-LD structured data —— -->
-
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "MusicGroup",
-    "@id": "https://beareab.com/#beareab",
-    "name": "beareab",
-    "url": "https://beareab.com/",
-    "sameAs": [
-      "https://open.spotify.com/artist/6T4MfTo8RcW1jtS8Odu2M4",
-      "https://beareab.bandcamp.com",
-      "https://music.apple.com/us/artist/beareab/1820548198",
-      "https://www.instagram.com/gblongz",
-      "https://twitter.com/beareaband"
-    ],
-    "album": [
+    "@graph": [
+      {
+        "@type": "MusicGroup",
+        "@id": "https://beareab.com/#beareab",
+        "name": "beareab",
+        "alternateName": ["Gabriel Long", "beareaband", "gblongz"],
+        "url": "https://beareab.com/",
+        "image": "https://beareab.com/assets/headshot.jpg",
+        "description": "beareab is the solo project of Gabriel Long, fusing skramz, noise rock, and post-hardcore into a raw and vulnerable emotional experience.",
+        "genre": ["Post-hardcore", "Skramz", "Noise Rock", "Experimental"],
+        "founder": {
+          "@type": "Person",
+          "@id": "https://beareab.com/#gabriellong",
+          "name": "Gabriel Long"
+        },
+        "sameAs": [
+          "https://open.spotify.com/artist/6T4MfTo8RcW1jtS8Odu2M4",
+          "https://beareab.bandcamp.com",
+          "https://music.apple.com/us/artist/beareab/1820548198",
+          "https://www.instagram.com/gblongz",
+          "https://twitter.com/beareaband"
+        ]
+      },
+      {
+        "@type": "Person",
+        "@id": "https://beareab.com/#gabriellong",
+        "name": "Gabriel Long",
+        "url": "https://beareab.com/",
+        "sameAs": [
+          "https://www.instagram.com/gblongz",
+          "https://twitter.com/beareaband"
+        ]
+      },
       {
         "@type": "MusicAlbum",
         "@id": "https://beareab.com/#solace",
         "name": "Solace",
         "url": "https://beareab.com/discography.html",
         "datePublished": "2025-06-14",
+        "image": "https://beareab.com/assets/solace.jpg",
+        "genre": ["Post-hardcore", "Skramz", "Noise Rock"],
+        "byArtist": {
+          "@id": "https://beareab.com/#beareab"
+        },
         "track": [
-          {"@type": "MusicRecording", "name": "Limit"},
-          {"@type": "MusicRecording", "name": "Dialect"},
-          {"@type": "MusicRecording", "name": "Cottage"},
-          {"@type": "MusicRecording", "name": "Temptation"},
-          {"@type": "MusicRecording", "name": "Curve"},
-          {"@type": "MusicRecording", "name": "Figment"},
-          {"@type": "MusicRecording", "name": "Obstruct"},
-          {"@type": "MusicRecording", "name": "Prudent"},
-          {"@type": "MusicRecording", "name": "Mistake"},
-          {"@type": "MusicRecording", "name": "Hubris"},
-          {"@type": "MusicRecording", "name": "Desolate"},
-          {"@type": "MusicRecording", "name": "Orwell"},
-          {"@type": "MusicRecording", "name": "Cope"}
+          { "@type": "MusicRecording", "name": "Limit" },
+          { "@type": "MusicRecording", "name": "Dialect" },
+          { "@type": "MusicRecording", "name": "Cottage" },
+          { "@type": "MusicRecording", "name": "Temptation" },
+          { "@type": "MusicRecording", "name": "Curve" },
+          { "@type": "MusicRecording", "name": "Figment" },
+          { "@type": "MusicRecording", "name": "Obstruct" },
+          { "@type": "MusicRecording", "name": "Prudent" },
+          { "@type": "MusicRecording", "name": "Mistake" },
+          { "@type": "MusicRecording", "name": "Hubris" },
+          { "@type": "MusicRecording", "name": "Desolate" },
+          { "@type": "MusicRecording", "name": "Orwell" },
+          { "@type": "MusicRecording", "name": "Cope" }
         ]
       },
       {
@@ -64,11 +89,13 @@
         "name": "beareab / eyesplice split",
         "url": "https://beareab.com/discography.html",
         "datePublished": "2025-07-02",
+        "image": "https://beareab.com/assets/beareab-eyesplice.jpg",
+        "genre": ["Skramz", "Emoviolence", "Post-hardcore"],
         "track": [
-          {"@type": "MusicRecording", "name": "Love", "byArtist": "beareab"},
-          {"@type": "MusicRecording", "name": "good grief", "byArtist": "eyesplice"},
-          {"@type": "MusicRecording", "name": "Problems", "byArtist": "beareab"},
-          {"@type": "MusicRecording", "name": "ghost", "byArtist": "eyesplice"}
+          { "@type": "MusicRecording", "name": "Love", "byArtist": { "@id": "https://beareab.com/#beareab" } },
+          { "@type": "MusicRecording", "name": "good grief", "byArtist": { "name": "eyesplice" } },
+          { "@type": "MusicRecording", "name": "Problems", "byArtist": { "@id": "https://beareab.com/#beareab" } },
+          { "@type": "MusicRecording", "name": "ghost", "byArtist": { "name": "eyesplice" } }
         ]
       },
       {
@@ -77,10 +104,15 @@
         "name": "Psion",
         "url": "https://beareab.com/",
         "datePublished": "2025-07-23",
+        "image": "https://beareab.com/assets/psion.jpg",
+        "genre": ["Skramz", "Noise Rock", "Experimental"],
+        "byArtist": {
+          "@id": "https://beareab.com/#beareab"
+        },
         "track": [
-          {"@type": "MusicRecording", "name": "Projection"},
-          {"@type": "MusicRecording", "name": "Shadow"},
-          {"@type": "MusicRecording", "name": "Channel"}
+          { "@type": "MusicRecording", "name": "Projection" },
+          { "@type": "MusicRecording", "name": "Shadow" },
+          { "@type": "MusicRecording", "name": "Channel" }
         ]
       }
     ]
@@ -90,8 +122,9 @@
   <title>Discography – beareab</title>
   <meta name="description" content="All releases by beareab: Psion, beareab / eyesplice split, and Solace.">
   <link rel="canonical" href="https://beareab.com/discography.html">
-  <link rel="icon" href="assets/favicon.ico">
+  <link rel="icon" href="assets/favicon.png">
 
+  <!-- Fonts + Styles -->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
