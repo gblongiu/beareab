@@ -4,31 +4,88 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
 
-  <!-- —— OpenGraph —— -->
-  <meta property="og:site_name"   content="beareab">
-  <meta property="og:title"       content="beareab – About Gabriel Long">
-  <meta property="og:description" content="Biography and background of Gabriel Long, the artist behind beareab.">
-  <meta property="og:url"         content="https://beareab.com/about.html">
-  <meta property="og:type"        content="profile">
-  <meta property="og:image"       content="https://beareab.com/assets/headshot.jpg">
+  <!-- Primary SEO -->
+  <title>About Gabriel Long | beareab</title>
+  <meta name="description" content="Biography and background of Gabriel Long, the artist behind beareab.">
+  <link rel="canonical" href="https://beareab.com/about.html">
+  <link rel="alternate" href="https://beareab.com/about.html" hreflang="en">
+  <link rel="alternate" href="https://beareab.com/about.html" hreflang="x-default">
 
-  <!-- —— Twitter Card —— -->
-  <meta name="twitter:card"        content="summary_large_image">
-  <meta name="twitter:site"        content="@beareaband">
-  <meta name="twitter:title"       content="beareab – About Gabriel Long">
+  <!-- Open Graph -->
+  <meta property="og:site_name" content="beareab">
+  <meta property="og:title" content="About Gabriel Long | beareab">
+  <meta property="og:description" content="Musician, producer, and the creative force behind beareab.">
+  <meta property="og:url" content="https://beareab.com/about.html">
+  <meta property="og:type" content="profile">
+  <meta property="og:image" content="https://beareab.com/assets/headshot.jpg">
+  <meta property="og:image:secure_url" content="https://beareab.com/assets/headshot.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@beareaband">
+  <meta name="twitter:title" content="About Gabriel Long | beareab">
   <meta name="twitter:description" content="Musician, producer, and the creative force behind beareab.">
-  <meta name="twitter:image"       content="https://beareab.com/assets/headshot.jpg">
+  <meta name="twitter:image" content="https://beareab.com/assets/headshot.jpg">
 
-  <!-- —— JSON-LD structured data —— -->
+  <!-- Favicons & App -->
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <!-- Performance hints -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- JSON-LD structured data -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "Organization",
+        "@id": "https://beareab.com/#org",
+        "name": "beareab",
+        "url": "https://beareab.com/"
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://beareab.com/#website",
+        "url": "https://beareab.com/",
+        "name": "beareab",
+        "inLanguage": "en",
+        "dateCreated": "2025-08-06",
+        "publisher": { "@id": "https://beareab.com/#org" }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://beareab.com/#about",
+        "url": "https://beareab.com/about.html",
+        "name": "About Gabriel Long",
+        "inLanguage": "en",
+        "isPartOf": { "@id": "https://beareab.com/#website" },
+        "dateModified": "2025-08-08",
+        "mainEntity": { "@id": "https://beareab.com/#gabriellong" }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://beareab.com/#about-bc",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://beareab.com/" },
+          { "@type": "ListItem", "position": 2, "name": "About", "item": "https://beareab.com/about.html" }
+        ]
+      },
+      {
         "@type": "Person",
         "@id": "https://beareab.com/#gabriellong",
         "name": "Gabriel Long",
-        "alternateName": ["gblongz", "beareaband"],
+        "alternateName": ["gblongz", "beareaband", "beareab"],
         "url": "https://beareab.com/about.html",
         "image": "https://beareab.com/assets/headshot.jpg",
         "jobTitle": "Musician, Producer",
@@ -40,22 +97,18 @@
           "https://www.instagram.com/gblongz",
           "https://twitter.com/beareaband"
         ],
-        "worksFor": {
-          "@id": "https://beareab.com/#beareab"
-        }
+        "worksFor": { "@id": "https://beareab.com/#beareab" }
       },
       {
         "@type": "MusicGroup",
         "@id": "https://beareab.com/#beareab",
         "name": "beareab",
         "alternateName": ["Gabriel Long", "beareaband", "gblongz"],
-        "founder": {
-          "@id": "https://beareab.com/#gabriellong"
-        },
         "url": "https://beareab.com/",
         "image": "https://beareab.com/assets/headshot.jpg",
         "genre": ["Skramz", "Post-hardcore", "Experimental", "Noise Rock"],
         "description": "beareab is the solo project of Gabriel Long, fusing raw emotion with dissonant guitar work and harsh dynamics, rooted in skramz, noise rock, and emotional catharsis.",
+        "founder": { "@id": "https://beareab.com/#gabriellong" },
         "sameAs": [
           "https://open.spotify.com/artist/6T4MfTo8RcW1jtS8Odu2M4",
           "https://beareab.bandcamp.com",
@@ -63,27 +116,10 @@
           "https://www.instagram.com/gblongz",
           "https://twitter.com/beareaband"
         ]
-      },
-      {
-        "@type": "WebPage",
-        "@id": "https://beareab.com/about.html",
-        "name": "About Gabriel Long – beareab",
-        "url": "https://beareab.com/about.html",
-        "mainEntity": {
-          "@id": "https://beareab.com/#gabriellong"
-        }
       }
     ]
   }
   </script>
-
-  <title>About – beareab</title>
-  <meta name="description" content="Biography and background of Gabriel Long, the artist behind beareab.">
-  <link rel="canonical" href="https://beareab.com/about.html">
-  <link rel="icon" href="favicon.png">
-
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="site-header">
@@ -105,18 +141,18 @@
 
   <div class="about-container">
     <section class="bio-grid">
-      <img class="headshot" src="assets/headshot.jpg" alt="Gabriel Long">
+      <img class="headshot" src="assets/headshot.jpg" alt="Gabriel Long headshot" loading="eager">
       <div class="bio-text">
         <h3>Biography</h3>
-        <p>Gabriel Long is the musician, songwriter, and producer behind beareab. Born in the Pacific Northwest and raised in the Midwest, he’s been writing and playing guitar since 2000, but only began releasing music under the beareab moniker in 2025. Drawing on his underground hardcore and experimental roots, his work fuses raw emotion with intricate guitar textures.</p>
-        <p>Across three releases: Psion, the beareab / eyesplice split, and Solace, Gabriel explores themes of shadow integration and self-therapy. His recordings blend harsh dynamics, dissonant riffing, and moments of fragile melody to confront and express the hidden corners of the psyche.</p>
+        <p>Gabriel Long is the musician, songwriter, and producer behind beareab. Born in the Pacific Northwest and raised in the Midwest, he has been writing and playing guitar since 2000, but only began releasing music under the beareab moniker in 2025. Drawing on underground hardcore and experimental roots, his work fuses raw emotion with intricate guitar textures.</p>
+        <p>Across three releases — Psion, the beareab and eyesplice split, and Solace — Gabriel explores themes of shadow integration and self-therapy. His recordings blend harsh dynamics, dissonant riffing, and moments of fragile melody to confront and express the hidden corners of the psyche. Explore the <a href="/discography.html">discography</a> or <a href="/connect.html">follow beareab</a> on your preferred platform.</p>
       </div>
     </section>
 
     <section class="about-section">
       <h3>Philosophy &amp; Approach</h3>
       <p>At its core, beareab is an exercise in honesty. Gabriel believes music can mirror our inner landscapes, helping us acknowledge and integrate the parts of ourselves we often shy away from. Each composition is crafted to evoke tension and release, which mirrors the process of healing and self-discovery.</p>
-      <p>Whether working alone in his home studio or collaborating with peers in the underground scene, Gabriel maintains a DIY ethos. He has a degree in audio production and purposefully rejects the over-polished methodologies he was taught, opting instead for lo-fi techniques he developed over 24 years of recording experience. His focus is on immediacy of performance and authenticity above all else.</p>
+      <p>Whether working alone in his home studio or collaborating with peers in the underground scene, Gabriel maintains a DIY ethos. He has a degree in audio production and purposefully rejects the over-polished methodologies he was taught, opting instead for lo-fi techniques he developed over 24 years of recording experience. The focus is on immediacy of performance and authenticity above all else.</p>
     </section>
   </div>
 
