@@ -4,100 +4,162 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
 
-  <!-- —— OpenGraph —— -->
-  <meta property="og:site_name"   content="beareab">
-  <meta property="og:title"       content="beareab – Other Projects">
-  <meta property="og:description" content="Collaborations and side projects featuring Gabriel Long.">
-  <meta property="og:url"         content="https://beareab.com/projects.html">
-  <meta property="og:type"        content="website">
-  <meta property="og:image"       content="https://beareab.com/assets/longtooth-cover.jpg">
+  <!-- Primary SEO -->
+  <title>Other projects | The Longtooth Collective</title>
+  <meta name="description" content="Gabriel Long’s other work outside beareab, including a contribution to The Longtooth Collective. beareab is a solo project.">
+  <link rel="canonical" href="https://beareab.com/projects.html">
+  <link rel="alternate" href="https://beareab.com/projects.html" hreflang="en">
+  <link rel="alternate" href="https://beareab.com/projects.html" hreflang="x-default">
 
-  <!-- —— Twitter Card —— -->
-  <meta name="twitter:card"        content="summary_large_image">
-  <meta name="twitter:site"        content="@beareaband">
-  <meta name="twitter:title"       content="beareab – Other Projects">
-  <meta name="twitter:description" content="Collaborations and side projects featuring Gabriel Long.">
-  <meta name="twitter:image"       content="https://beareab.com/assets/theimitationzone.jpg">
+  <!-- Open Graph -->
+  <meta property="og:site_name" content="beareab">
+  <meta property="og:title" content="Other projects | The Longtooth Collective">
+  <meta property="og:description" content="Gabriel Long’s other work outside beareab, including a contribution to The Longtooth Collective. beareab is a solo project.">
+  <meta property="og:url" content="https://beareab.com/projects.html">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://beareab.com/assets/longtooth-cover.jpg">
+  <meta property="og:image:secure_url" content="https://beareab.com/assets/longtooth-cover.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
 
- <!-- —— JSON-LD structured data —— -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "CollectionPage",
-      "@id": "https://beareab.com/#projects",
-      "name": "Other Projects",
-      "url": "https://beareab.com/projects.html",
-      "hasPart": {
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@beareaband">
+  <meta name="twitter:title" content="Other projects | The Longtooth Collective">
+  <meta name="twitter:description" content="Gabriel Long’s other work outside beareab, including a contribution to The Longtooth Collective. beareab is a solo project.">
+  <meta name="twitter:image" content="https://beareab.com/assets/longtooth-cover.jpg">
+
+  <!-- Favicons & App -->
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <!-- Performance hints -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- JSON-LD structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://beareab.com/#org",
+        "name": "beareab",
+        "url": "https://beareab.com/"
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://beareab.com/#website",
+        "url": "https://beareab.com/",
+        "name": "beareab",
+        "inLanguage": "en",
+        "dateCreated": "2025-08-06",
+        "publisher": { "@id": "https://beareab.com/#org" }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://beareab.com/#projects",
+        "url": "https://beareab.com/projects.html",
+        "name": "Other projects",
+        "inLanguage": "en",
+        "isPartOf": { "@id": "https://beareab.com/#website" },
+        "dateModified": "2025-08-08",
+        "about": { "@id": "https://beareab.com/#gabriellong" }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://beareab.com/#projects-bc",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://beareab.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Projects", "item": "https://beareab.com/projects.html" }
+        ]
+      },
+
+      /* Person and beareab entities for disambiguation */
+      {
+        "@type": "Person",
+        "@id": "https://beareab.com/#gabriellong",
+        "name": "Gabriel Long",
+        "alternateName": ["gblongz", "beareaband", "beareab"],
+        "url": "https://beareab.com/about.html",
+        "image": "https://beareab.com/assets/headshot.jpg",
+        "worksFor": { "@id": "https://beareab.com/#beareab" },
+        "sameAs": [
+          "https://open.spotify.com/artist/6T4MfTo8RcW1jtS8Odu2M4",
+          "https://beareab.bandcamp.com",
+          "https://music.apple.com/us/artist/beareab/1820548198",
+          "https://www.instagram.com/gblongz",
+          "https://twitter.com/beareaband"
+        ]
+      },
+      {
+        "@type": "MusicGroup",
+        "@id": "https://beareab.com/#beareab",
+        "name": "beareab",
+        "url": "https://beareab.com/",
+        "image": "https://beareab.com/assets/psion.jpg",
+        "genre": ["Skramz", "Post-hardcore", "Experimental", "Noise Rock"],
+        "founder": { "@id": "https://beareab.com/#gabriellong" },
+        "member": [
+          { "@type": "Person", "@id": "https://beareab.com/#gabriellong", "name": "Gabriel Long" }
+        ],
+        "sameAs": [
+          "https://open.spotify.com/artist/6T4MfTo8RcW1jtS8Odu2M4",
+          "https://beareab.bandcamp.com",
+          "https://music.apple.com/us/artist/beareab/1820548198",
+          "https://www.youtube.com/@beareaband",
+          "https://www.instagram.com/gblongz",
+          "https://twitter.com/beareaband"
+        ]
+      },
+
+      /* Longtooth as a separate external entity */
+      {
+        "@type": "MusicGroup",
+        "@id": "https://thelongtoothcollective.bandcamp.com/#thelongtoothcollective",
+        "name": "The Longtooth Collective",
+        "url": "https://thelongtoothcollective.bandcamp.com",
+        "genre": ["Noise Rock", "Mathcore", "Post-hardcore"],
+        "sameAs": [
+          "https://thelongtoothcollective.bandcamp.com",
+          "https://open.spotify.com/artist/5wCavhe5jrVaG5GefNZsNE",
+          "https://music.apple.com/us/artist/the-longtooth-collective/1830108674",
+          "https://rateyourmusic.com/artist/the-longtooth-collective"
+        ],
+        "member": [
+          { "@type": "Person", "name": "Jon Howell", "jobTitle": "Guitar" },
+          { "@type": "Person", "name": "Dan Sneddon", "jobTitle": "Drums" },
+          { "@type": "Person", "name": "Matt O’Brien", "jobTitle": "Bass" },
+          { "@type": "Person", "name": "Paul Isham", "jobTitle": "Vocals" },
+          { "@type": "Person", "name": "Harvey Rañola", "jobTitle": "Vocals" },
+          { "@type": "Person", "name": "Gabriel Long", "jobTitle": "Vocals, Guest Guitar" }
+        ]
+      },
+      {
         "@type": "MusicAlbum",
-        "@id": "https://beareab.com/#theimitationzone",
+        "@id": "https://thelongtoothcollective.bandcamp.com/#theimitationzone",
         "name": "The Imitation Zone",
-        "url": "https://thelongtoothcollective.bandcamp.com/album/the-imitation-zone",
         "image": "https://beareab.com/assets/longtooth-cover.jpg",
+        "url": "https://thelongtoothcollective.bandcamp.com/album/the-imitation-zone",
         "datePublished": "2008-04-04",
-        "byArtist": {
-          "@type": "MusicGroup",
-          "@id": "https://beareab.com/#thelongtoothcollective",
-          "name": "The Longtooth Collective",
-          "url": "https://thelongtoothcollective.bandcamp.com",
-          "genre": ["Noise Rock", "Mathcore", "Post-hardcore"],
-          "sameAs": [
-            "https://thelongtoothcollective.bandcamp.com",
-            "https://open.spotify.com/artist/5wCavhe5jrVaG5GefNZsNE",
-            "https://music.apple.com/us/artist/the-longtooth-collective/1830108674",
-            "https://rateyourmusic.com/artist/the-longtooth-collective"
-          ],
-          "member": [
-            { "@type": "Person", "name": "Jon Howell", "jobTitle": "Guitar" },
-            { "@type": "Person", "name": "Dan Sneddon", "jobTitle": "Drums" },
-            { "@type": "Person", "name": "Matt O’Brien", "jobTitle": "Bass" },
-            { "@type": "Person", "name": "Paul Isham", "jobTitle": "Vocals" },
-            { "@type": "Person", "name": "Harvey Rañola", "jobTitle": "Vocals" },
-            { "@type": "Person", "name": "Gabriel Long", "jobTitle": "Vocals, Guest Guitar" }
-          ]
-        },
+        "byArtist": { "@id": "https://thelongtoothcollective.bandcamp.com/#thelongtoothcollective" },
         "track": [
-          {
-            "@type": "MusicRecording",
-            "name": "De Lune",
-            "byArtist": { "@type": "Person", "name": "Harvey Rañola" }
-          },
-          {
-            "@type": "MusicRecording",
-            "name": "Medic",
-            "byArtist": { "@type": "Person", "name": "Paul Isham" },
-            "contributor": [
-              { "@type": "Person", "name": "Gabriel Long", "jobTitle": "Backing Vocals, Guest Guitar" }
-            ]
-          },
-          {
-            "@type": "MusicRecording",
-            "name": "Seventh Reincarnation",
-            "byArtist": { "@type": "Person", "name": "Gabriel Long" },
-            "contributor": [
-              { "@type": "Person", "name": "Paul Isham", "jobTitle": "Backing Vocals" }
-            ]
-          },
-          {
-            "@type": "MusicRecording",
-            "name": "You're Open",
-            "byArtist": { "@type": "Person", "name": "Paul Isham" }
-          }
+          { "@type": "MusicRecording", "name": "De Lune", "byArtist": { "@type": "Person", "name": "Harvey Rañola" } },
+          { "@type": "MusicRecording", "name": "Medic", "byArtist": { "@type": "Person", "name": "Paul Isham" }, "contributor": [{ "@type": "Person", "name": "Gabriel Long", "jobTitle": "Backing Vocals, Guest Guitar" }] },
+          { "@type": "MusicRecording", "name": "Seventh Reincarnation", "byArtist": { "@type": "Person", "name": "Gabriel Long" }, "contributor": [{ "@type": "Person", "name": "Paul Isham", "jobTitle": "Backing Vocals" }] },
+          { "@type": "MusicRecording", "name": "You're Open", "byArtist": { "@type": "Person", "name": "Paul Isham" } }
         ]
       }
-    }
-  ]
-}
-</script>
-
-  <title>Projects – beareab</title>
-  <meta name="description" content="Collaborations and side projects featuring Gabriel Long, including The Longtooth Collective.">
-  <link rel="canonical" href="https://beareab.com/projects.html">
-  <link rel="icon" href="favicon.ico">
-
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+    ]
+  }
+  </script>
 </head>
 <body>
   <header class="site-header">
@@ -116,19 +178,23 @@
     <h2 class="release-title">Other Projects</h2>
     <div class="release-spotlight">
       <iframe
+        title="Stream The Imitation Zone by The Longtooth Collective on Bandcamp"
         src="https://bandcamp.com/EmbeddedPlayer/album=2276893227/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
+        loading="lazy"
+        referrerpolicy="no-referrer"
         seamless>
       </iframe>
       <div class="description">
-        <p><strong>The Longtooth Collective</strong> was a spontaneous rupture in the Bay Area underground. Jon Howell (guitar), Dan Sneddon (drums), and Matt O’Brien (bass) enlisted vocalists Paul Isham, Harvey Rañola, and Gabriel Long for a single explosive document of noise/math/post-hardcore.</p>
-        <p>Howell’s angular phrasing carves out space, O’Brien’s low end bulldozes through the mix, and Sneddon’s drumming is always searching. Every song becomes an unrepeatable battleground of intention. Members would later form or play in Kowloon Walled City, Tigon, Early Graves, Less Art, Ex Everything, and beareab.</p>
-        <p><strong>Release date:</strong> April 4, 2008</p>
+        <p><strong>Important</strong> beareab is a solo project by Gabriel Long. No other musicians are members of beareab.</p>
+        <p><strong>The Longtooth Collective</strong> is a separate project from 2008 in which Gabriel participated alongside Jon Howell, Dan Sneddon, Matt O’Brien, Paul Isham, and Harvey Rañola. It was a one-off document of noise, math, and post-hardcore recorded in the Bay Area underground.</p>
+        <p><strong>Release date</strong> April 4, 2008</p>
         <ul>
-          <li>Guitar: Jon Howell</li>
-          <li>Drums: Dan Sneddon</li>
-          <li>Bass: Matt O’Brien</li>
-          <li>Vocals: Paul Isham, Harvey Rañola, Gabriel Long</li>
+          <li>Guitar Jon Howell</li>
+          <li>Drums Dan Sneddon</li>
+          <li>Bass Matt O’Brien</li>
+          <li>Vocals Paul Isham, Harvey Rañola, Gabriel Long</li>
         </ul>
+        <p>Listen on <a href="https://thelongtoothcollective.bandcamp.com/album/the-imitation-zone" target="_blank" rel="noopener noreferrer">Bandcamp</a>.</p>
       </div>
     </div>
   </main>
