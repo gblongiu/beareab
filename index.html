@@ -4,90 +4,127 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
 
-  <!-- —— OpenGraph —— -->
+  <!-- Primary SEO -->
+  <title>beareab | Psion - skramz, noise rock, post-hardcore</title>
+  <meta name="description" content="Psion is an emotive skramz and noise rock release by Gabriel Long. Dissonant guitars, harsh dynamics, and raw vocals. Stream the full album.">
+  <link rel="canonical" href="https://beareab.com/">
+  <link rel="alternate" href="https://beareab.com/" hreflang="en">
+  <link rel="alternate" href="https://beareab.com/" hreflang="x-default">
+
+  <!-- Open Graph -->
   <meta property="og:site_name"   content="beareab">
-  <meta property="og:title"       content="beareab – Psion">
-  <meta property="og:description" content="Psion spans five years of fracture and reconstruction… An emotive guitar journey by Gabriel Long.">
+  <meta property="og:title"       content="beareab | Psion - skramz, noise rock, post-hardcore">
+  <meta property="og:description" content="Psion spans five years of fracture and reconstruction. An emotive guitar journey by Gabriel Long.">
   <meta property="og:url"         content="https://beareab.com/">
   <meta property="og:type"        content="music.album">
   <meta property="og:image"       content="https://beareab.com/assets/psion.jpg">
+  <meta property="og:image:secure_url" content="https://beareab.com/assets/psion.jpg">
+  <!-- If you know the real dimensions, update these -->
+  <meta property="og:image:width"  content="1200">
+  <meta property="og:image:height" content="630">
+  <!-- Music -->
+  <meta property="music:release_date" content="2025-07-23">
 
-  <!-- —— Twitter Card —— -->
+  <!-- Twitter -->
   <meta name="twitter:card"        content="summary_large_image">
   <meta name="twitter:site"        content="@beareaband">
-  <meta name="twitter:title"       content="beareab – Psion">
-  <meta name="twitter:description" content="Psion spans five years of fracture and reconstruction… An emotive guitar journey by Gabriel Long.">
+  <meta name="twitter:title"       content="beareab | Psion - skramz, noise rock, post-hardcore">
+  <meta name="twitter:description" content="Psion spans five years of fracture and reconstruction. An emotive guitar journey by Gabriel Long.">
   <meta name="twitter:image"       content="https://beareab.com/assets/psion.jpg">
 
-  <!-- —— JSON-LD structured data —— -->
+  <!-- Favicons -->
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" href="/favicon.png">
+
+  <!-- Performance hints -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preload" as="image" href="https://beareab.com/assets/psion.jpg">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- JSON-LD structured data -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://beareab.com/#org",
+        "name": "beareab",
+        "url": "https://beareab.com/"
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://beareab.com/#website",
+        "url": "https://beareab.com/",
+        "name": "beareab",
+        "inLanguage": "en",
+        "dateCreated": "2025-08-06",
+        "publisher": { "@id": "https://beareab.com/#org" }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://beareab.com/#home",
+        "url": "https://beareab.com/",
+        "name": "Home",
+        "inLanguage": "en",
+        "isPartOf": { "@id": "https://beareab.com/#website" },
+        "dateModified": "2025-08-08"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://beareab.com/#gabriellong",
+        "name": "Gabriel Long",
+        "alternateName": ["gblongz", "beareaband"],
+        "url": "https://beareab.com/about.html",
+        "image": "https://beareab.com/assets/headshot.jpg",
+        "sameAs": [
+          "https://www.instagram.com/gblongz",
+          "https://twitter.com/beareaband"
+        ]
+      },
+      {
+        "@type": "MusicGroup",
+        "@id": "https://beareab.com/#beareab",
+        "name": "beareab",
+        "url": "https://beareab.com/",
+        "image": "https://beareab.com/assets/headshot.jpg",
+        "genre": ["Post-hardcore", "Skramz", "Noise Rock", "Experimental"],
+        "founder": { "@id": "https://beareab.com/#gabriellong" },
+        "sameAs": [
+          "https://open.spotify.com/artist/6T4MfTo8RcW1jtS8Odu2M4",
+          "https://beareab.bandcamp.com",
+          "https://music.apple.com/us/artist/beareab/1820548198",
+          "https://www.youtube.com/@beareaband",
+          "https://www.instagram.com/gblongz",
+          "https://twitter.com/beareaband"
+        ]
+      },
       {
         "@type": "MusicAlbum",
         "@id": "https://beareab.com/#psion",
         "name": "Psion",
         "url": "https://beareab.com/",
         "image": "https://beareab.com/assets/psion.jpg",
-        "datePublished": "2025-08-06",
-        "genre": ["Post-hardcore", "Skramz", "Noise Rock", "Experimental"],
-        "byArtist": {
-          "@id": "https://beareab.com/#beareab"
-        },
-        "mainEntityOfPage": {
-          "@type": "WebPage",
-          "@id": "https://beareab.com/"
-        }
-      },
-      {
-        "@type": "MusicGroup",
-        "@id": "https://beareab.com/#beareab",
-        "name": "beareab",
-        "alternateName": "Gabriel Long",
-        "url": "https://beareab.com/",
-        "image": "https://beareab.com/assets/headshot.jpg",
-        "description": "beareab is the solo project of Gabriel Long, fusing skramz, noise rock, and post-hardcore into a raw and vulnerable emotional experience.",
-        "genre": ["Post-hardcore", "Skramz", "Noise Rock", "Experimental"],
-        "founder": {
-          "@type": "Person",
-          "@id": "https://beareab.com/#gabriellong",
-          "name": "Gabriel Long"
-        },
-        "sameAs": [
-          "https://open.spotify.com/artist/6T4MfTo8RcW1jtS8Odu2M4",
-          "https://beareab.bandcamp.com",
-          "https://music.apple.com/us/artist/beareab/1820548198",
-          "https://www.instagram.com/gblongz",
-          "https://twitter.com/beareaband"
-        ]
-      },
-      {
-        "@type": "Person",
-        "@id": "https://beareab.com/#gabriellong",
-        "name": "Gabriel Long",
-        "alternateName": "gblongz",
-        "url": "https://beareab.com/",
-        "image": "https://beareab.com/assets/headshot.jpg",
-        "sameAs": [
-          "https://www.instagram.com/gblongz",
-          "https://twitter.com/beareaband"
-        ]
+        "datePublished": "2025-07-23",
+        "inLanguage": "en",
+        "albumReleaseType": "AlbumRelease",
+        "genre": ["Skramz", "Noise Rock", "Experimental"],
+        "numTracks": 3,
+        "byArtist": { "@id": "https://beareab.com/#beareab" },
+        "track": [
+          { "@type": "MusicRecording", "name": "Projection" },
+          { "@type": "MusicRecording", "name": "Shadow" },
+          { "@type": "MusicRecording", "name": "Channel" }
+        ],
+        "mainEntityOfPage": { "@id": "https://beareab.com/#home" }
       }
     ]
   }
   </script>
-
-  <title>beareab – Psion</title>
-  <meta name="description" content="Psion spans five years of fracture and reconstruction… An emotive guitar journey by Gabriel Long.">
-  <link rel="canonical" href="https://beareab.com/">
-
-  <!-- Correct favicon path -->
-  <link rel="icon" type="image/png" href="favicon.png">
-
-  <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="site-header">
@@ -106,13 +143,16 @@
     <h2 class="release-title">Latest Release: Psion</h2>
     <div class="release-spotlight">
       <iframe
+        title="Stream Psion by beareab on Bandcamp"
         src="https://bandcamp.com/EmbeddedPlayer/album=2458099294/size=large/bgcol=fafafa/linkcol=333333/tracklist=false/transparent=true/"
+        loading="lazy"
+        referrerpolicy="no-referrer"
         seamless>
       </iframe>
       <div class="description">
         <p>Psion spans five years of fracture and reconstruction. One of these songs was written in the isolation of 2020, during the peak of the pandemic, when everything felt unreal. The others came later, built from riffs I wrote in the spring of 2023. The vocals and drums were completed in the week leading up to release.</p>
-        <p>This release is anxious, raw, and densely layered. It moves quickly but never feels careless. Spoken word unravels into screaming. Melodic foundations crumble into dissonance. Nothing here is clean. It is a deeply personal exposition of emotional catharsis.</p>
-        <p>Psion came out of a period of recognition. I began to see the shape of my own emotional patterns. How I was participating in the damage I thought was being done to me. These songs carry that realization, but not resolution. Only awareness. The fight was never with the outside world. It was always internal.</p>
+        <p>This release is anxious, raw, and densely layered. It moves quickly but never feels careless. Spoken word unravels into screaming. Melodic foundations crumble into dissonance. Nothing here is clean. It is a deeply personal exposition of emotional catharsis. Explore the <a href="/discography.html#psion">Psion tracklist</a> or <a href="/about.html">learn about Gabriel Long</a>.</p>
+        <p>Psion came out of a period of recognition. I began to see the shape of my own emotional patterns. How I was participating in the damage I thought was being done to me. These songs carry that realization, but not resolution. Only awareness. The fight was never with the outside world. It was always internal. See more releases on the <a href="/discography.html">discography page</a>.</p>
       </div>
     </div>
   </div>
