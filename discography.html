@@ -4,69 +4,159 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
 
-  <!-- —— OpenGraph —— -->
+  <!-- Primary SEO -->
+  <title>beareab discography | Psion, split with eyesplice, Solace</title>
+  <meta name="description" content="Stream every beareab release in one place: Psion, the beareab and eyesplice split, and Solace.">
+  <link rel="canonical" href="https://beareab.com/discography.html">
+  <link rel="alternate" href="https://beareab.com/discography.html" hreflang="en">
+  <link rel="alternate" href="https://beareab.com/discography.html" hreflang="x-default">
+
+  <!-- Open Graph -->
   <meta property="og:site_name"   content="beareab">
-  <meta property="og:title"       content="beareab – Discography">
-  <meta property="og:description" content="All releases by beareab: Psion, beareab / eyesplice split, and Solace, each with embedded players.">
+  <meta property="og:title"       content="beareab discography | Psion, split with eyesplice, Solace">
+  <meta property="og:description" content="Stream every beareab release in one place: Psion, the beareab and eyesplice split, and Solace.">
   <meta property="og:url"         content="https://beareab.com/discography.html">
   <meta property="og:type"        content="website">
   <meta property="og:image"       content="https://beareab.com/assets/psion.jpg">
+  <meta property="og:image:secure_url" content="https://beareab.com/assets/psion.jpg">
+  <meta property="og:image:width"  content="1200">
+  <meta property="og:image:height" content="630">
 
-  <!-- —— Twitter Card —— -->
+  <!-- Twitter -->
   <meta name="twitter:card"        content="summary_large_image">
   <meta name="twitter:site"        content="@beareaband">
-  <meta name="twitter:title"       content="beareab – Discography">
-  <meta name="twitter:description" content="All releases by beareab: Psion, beareab / eyesplice split, and Solace.">
+  <meta name="twitter:title"       content="beareab discography | Psion, split with eyesplice, Solace">
+  <meta name="twitter:description" content="Stream every beareab release in one place: Psion, the beareab and eyesplice split, and Solace.">
   <meta name="twitter:image"       content="https://beareab.com/assets/psion.jpg">
 
-  <!-- —— JSON-LD structured data —— -->
+  <!-- Favicons & App -->
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <!-- Performance hints -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- JSON-LD -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "MusicGroup",
-        "@id": "https://beareab.com/#beareab",
+        "@type": "Organization",
+        "@id": "https://beareab.com/#org",
         "name": "beareab",
-        "alternateName": ["Gabriel Long", "beareaband", "gblongz"],
+        "url": "https://beareab.com/"
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://beareab.com/#website",
         "url": "https://beareab.com/",
-        "image": "https://beareab.com/assets/headshot.jpg",
-        "description": "beareab is the solo project of Gabriel Long, fusing skramz, noise rock, and post-hardcore into a raw and vulnerable emotional experience.",
-        "genre": ["Post-hardcore", "Skramz", "Noise Rock", "Experimental"],
-        "founder": {
-          "@type": "Person",
-          "@id": "https://beareab.com/#gabriellong",
-          "name": "Gabriel Long"
-        },
-        "sameAs": [
-          "https://open.spotify.com/artist/6T4MfTo8RcW1jtS8Odu2M4",
-          "https://beareab.bandcamp.com",
-          "https://music.apple.com/us/artist/beareab/1820548198",
-          "https://www.instagram.com/gblongz",
-          "https://twitter.com/beareaband"
+        "name": "beareab",
+        "inLanguage": "en",
+        "dateCreated": "2025-08-06",
+        "publisher": { "@id": "https://beareab.com/#org" }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://beareab.com/#discography",
+        "url": "https://beareab.com/discography.html",
+        "name": "Discography",
+        "inLanguage": "en",
+        "isPartOf": { "@id": "https://beareab.com/#website" },
+        "dateModified": "2025-08-08"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://beareab.com/#discography-bc",
+        "itemListElement": [
+          { "@type":"ListItem","position":1,"name":"Home","item":"https://beareab.com/" },
+          { "@type":"ListItem","position":2,"name":"Discography","item":"https://beareab.com/discography.html" }
         ]
       },
       {
         "@type": "Person",
         "@id": "https://beareab.com/#gabriellong",
         "name": "Gabriel Long",
-        "url": "https://beareab.com/",
+        "alternateName": ["gblongz","beareaband"],
+        "url": "https://beareab.com/about.html",
+        "image": "https://beareab.com/assets/headshot.jpg",
         "sameAs": [
           "https://www.instagram.com/gblongz",
           "https://twitter.com/beareaband"
         ]
       },
       {
+        "@type": "MusicGroup",
+        "@id": "https://beareab.com/#beareab",
+        "name": "beareab",
+        "url": "https://beareab.com/",
+        "image": "https://beareab.com/assets/headshot.jpg",
+        "genre": ["Post-hardcore","Skramz","Noise Rock","Experimental"],
+        "founder": { "@id": "https://beareab.com/#gabriellong" },
+        "sameAs": [
+          "https://open.spotify.com/artist/6T4MfTo8RcW1jtS8Odu2M4",
+          "https://beareab.bandcamp.com",
+          "https://music.apple.com/us/artist/beareab/1820548198",
+          "https://www.youtube.com/@beareaband",
+          "https://www.instagram.com/gblongz",
+          "https://twitter.com/beareaband"
+        ]
+      },
+      {
+        "@type": "MusicAlbum",
+        "@id": "https://beareab.com/#psion",
+        "name": "Psion",
+        "url": "https://beareab.com/discography.html#psion",
+        "image": "https://beareab.com/assets/psion.jpg",
+        "datePublished": "2025-07-23",
+        "inLanguage": "en",
+        "albumReleaseType": "AlbumRelease",
+        "genre": ["Skramz","Noise Rock","Experimental"],
+        "numTracks": 3,
+        "byArtist": { "@id": "https://beareab.com/#beareab" },
+        "track": [
+          { "@type": "MusicRecording", "name": "Projection" },
+          { "@type": "MusicRecording", "name": "Shadow" },
+          { "@type": "MusicRecording", "name": "Channel" }
+        ]
+      },
+      {
+        "@type": "MusicAlbum",
+        "@id": "https://beareab.com/#eyesplicesplit",
+        "name": "beareab / eyesplice split",
+        "url": "https://beareab.com/discography.html#eyesplicesplit",
+        "image": "https://beareab.com/assets/beareab-eyesplice.jpg",
+        "datePublished": "2025-07-02",
+        "inLanguage": "en",
+        "albumReleaseType": "AlbumRelease",
+        "genre": ["Skramz","Emoviolence","Post-hardcore"],
+        "numTracks": 4,
+        "track": [
+          { "@type": "MusicRecording", "name": "Love", "byArtist": { "@id": "https://beareab.com/#beareab" } },
+          { "@type": "MusicRecording", "name": "good grief", "byArtist": { "@type": "MusicGroup", "name": "eyesplice" } },
+          { "@type": "MusicRecording", "name": "Problems", "byArtist": { "@id": "https://beareab.com/#beareab" } },
+          { "@type": "MusicRecording", "name": "ghost", "byArtist": { "@type": "MusicGroup", "name": "eyesplice" } }
+        ]
+      },
+      {
         "@type": "MusicAlbum",
         "@id": "https://beareab.com/#solace",
         "name": "Solace",
-        "url": "https://beareab.com/discography.html",
-        "datePublished": "2025-06-14",
+        "url": "https://beareab.com/discography.html#solace",
         "image": "https://beareab.com/assets/solace.jpg",
-        "genre": ["Post-hardcore", "Skramz", "Noise Rock"],
-        "byArtist": {
-          "@id": "https://beareab.com/#beareab"
-        },
+        "datePublished": "2025-06-14",
+        "inLanguage": "en",
+        "albumReleaseType": "AlbumRelease",
+        "genre": ["Post-hardcore","Skramz","Noise Rock"],
+        "numTracks": 13,
+        "byArtist": { "@id": "https://beareab.com/#beareab" },
         "track": [
           { "@type": "MusicRecording", "name": "Limit" },
           { "@type": "MusicRecording", "name": "Dialect" },
@@ -82,51 +172,10 @@
           { "@type": "MusicRecording", "name": "Orwell" },
           { "@type": "MusicRecording", "name": "Cope" }
         ]
-      },
-      {
-        "@type": "MusicAlbum",
-        "@id": "https://beareab.com/#eyesplicesplit",
-        "name": "beareab / eyesplice split",
-        "url": "https://beareab.com/discography.html",
-        "datePublished": "2025-07-02",
-        "image": "https://beareab.com/assets/beareab-eyesplice.jpg",
-        "genre": ["Skramz", "Emoviolence", "Post-hardcore"],
-        "track": [
-          { "@type": "MusicRecording", "name": "Love", "byArtist": { "@id": "https://beareab.com/#beareab" } },
-          { "@type": "MusicRecording", "name": "good grief", "byArtist": { "name": "eyesplice" } },
-          { "@type": "MusicRecording", "name": "Problems", "byArtist": { "@id": "https://beareab.com/#beareab" } },
-          { "@type": "MusicRecording", "name": "ghost", "byArtist": { "name": "eyesplice" } }
-        ]
-      },
-      {
-        "@type": "MusicAlbum",
-        "@id": "https://beareab.com/#psion",
-        "name": "Psion",
-        "url": "https://beareab.com/",
-        "datePublished": "2025-07-23",
-        "image": "https://beareab.com/assets/psion.jpg",
-        "genre": ["Skramz", "Noise Rock", "Experimental"],
-        "byArtist": {
-          "@id": "https://beareab.com/#beareab"
-        },
-        "track": [
-          { "@type": "MusicRecording", "name": "Projection" },
-          { "@type": "MusicRecording", "name": "Shadow" },
-          { "@type": "MusicRecording", "name": "Channel" }
-        ]
       }
     ]
   }
   </script>
-
-  <title>Discography – beareab</title>
-  <meta name="description" content="All releases by beareab: Psion, beareab / eyesplice split, and Solace.">
-  <link rel="canonical" href="https://beareab.com/discography.html">
-  <link rel="icon" href="favicon.png">
-
-  <!-- Fonts + Styles -->
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="site-header">
@@ -144,23 +193,34 @@
   <main class="container">
     <h2>Discography</h2>
     <div class="embed-grid">
-      <div class="release-card">
+      <div class="release-card" id="psion">
         <iframe
+          title="Stream Psion by beareab on Bandcamp"
           src="https://bandcamp.com/EmbeddedPlayer/album=2458099294/size=large/bgcol=fafafa/linkcol=333333/tracklist=false/transparent=true/"
+          loading="lazy"
+          referrerpolicy="no-referrer"
           seamless>
         </iframe>
         <h3>Psion</h3>
       </div>
-      <div class="release-card">
+
+      <div class="release-card" id="eyesplicesplit">
         <iframe
+          title="Stream beareab and eyesplice split on Bandcamp"
           src="https://bandcamp.com/EmbeddedPlayer/album=3886594063/size=large/bgcol=fafafa/linkcol=333333/tracklist=false/transparent=true/"
+          loading="lazy"
+          referrerpolicy="no-referrer"
           seamless>
         </iframe>
-        <h3>beareab / eyesplice split</h3>
+        <h3>beareab and eyesplice split</h3>
       </div>
-      <div class="release-card">
+
+      <div class="release-card" id="solace">
         <iframe
+          title="Stream Solace by beareab on Bandcamp"
           src="https://bandcamp.com/EmbeddedPlayer/album=3518732287/size=large/bgcol=fafafa/linkcol=333333/tracklist=false/transparent=true/"
+          loading="lazy"
+          referrerpolicy="no-referrer"
           seamless>
         </iframe>
         <h3>Solace</h3>
