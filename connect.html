@@ -4,33 +4,90 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
 
-  <!-- —— OpenGraph —— -->
-  <meta property="og:site_name"   content="beareab">
-  <meta property="og:title"       content="beareab – Connect">
-  <meta property="og:description" content="Follow beareab on all your favorite social and streaming platforms.">
-  <meta property="og:url"         content="https://beareab.com/connect.html">
-  <meta property="og:type"        content="website">
-  <meta property="og:image"       content="https://beareab.com/assets/psion-cover.jpg">
+  <!-- Primary SEO -->
+  <title>Connect with beareab | links to every platform</title>
+  <meta name="description" content="Follow beareab across streaming and social: Spotify, Bandcamp, Apple Music, YouTube, Instagram, TikTok, Bluesky, Rate Your Music, and more.">
+  <link rel="canonical" href="https://beareab.com/connect.html">
+  <link rel="alternate" href="https://beareab.com/connect.html" hreflang="en">
+  <link rel="alternate" href="https://beareab.com/connect.html" hreflang="x-default">
 
-  <!-- —— Twitter Card —— -->
-  <meta name="twitter:card"        content="summary_large_image">
-  <meta name="twitter:site"        content="@beareaband">
-  <meta name="twitter:title"       content="beareab – Connect">
-  <meta name="twitter:description" content="Follow beareab on all your favorite social and streaming platforms.">
-  <meta name="twitter:image"       content="https://beareab.com/assets/psion-cover.jpg">
+  <!-- Open Graph -->
+  <meta property="og:site_name" content="beareab">
+  <meta property="og:title" content="Connect with beareab">
+  <meta property="og:description" content="Follow beareab across streaming and social platforms.">
+  <meta property="og:url" content="https://beareab.com/connect.html">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://beareab.com/assets/psion.jpg">
+  <meta property="og:image:secure_url" content="https://beareab.com/assets/psion.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
 
-  <!-- —— JSON-LD structured data —— -->
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@beareaband">
+  <meta name="twitter:title" content="Connect with beareab">
+  <meta name="twitter:description" content="Follow beareab across streaming and social platforms.">
+  <meta name="twitter:image" content="https://beareab.com/assets/psion.jpg">
+
+  <!-- Favicons & App -->
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <!-- Performance hints -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- JSON-LD structured data -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "Organization",
+        "@id": "https://beareab.com/#org",
+        "name": "beareab",
+        "url": "https://beareab.com/"
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://beareab.com/#website",
+        "url": "https://beareab.com/",
+        "name": "beareab",
+        "inLanguage": "en",
+        "dateCreated": "2025-08-06",
+        "publisher": { "@id": "https://beareab.com/#org" }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://beareab.com/#connect",
+        "url": "https://beareab.com/connect.html",
+        "name": "Connect with beareab",
+        "inLanguage": "en",
+        "isPartOf": { "@id": "https://beareab.com/#website" },
+        "dateModified": "2025-08-08",
+        "about": { "@id": "https://beareab.com/#beareab" }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://beareab.com/#connect-bc",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://beareab.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Connect", "item": "https://beareab.com/connect.html" }
+        ]
+      },
+      {
         "@type": "Person",
         "@id": "https://beareab.com/#gabriellong",
         "name": "Gabriel Long",
+        "alternateName": ["gblongz", "beareaband", "beareab"],
         "url": "https://beareab.com/about.html",
         "image": "https://beareab.com/assets/headshot.jpg",
-        "alternateName": ["gblongz", "beareaband", "beareab"],
         "sameAs": [
           "https://open.spotify.com/artist/6T4MfTo8RcW1jtS8Odu2M4",
           "https://beareab.bandcamp.com",
@@ -41,18 +98,17 @@
           "https://bsky.app/profile/beareab.bsky.social",
           "https://rateyourmusic.com/artist/beareab",
           "https://musicbrainz.org/artist/31afd001-7593-42e9-bf30-357fe4d3602a"
-        ]
+        ],
+        "worksFor": { "@id": "https://beareab.com/#beareab" }
       },
       {
         "@type": "MusicGroup",
         "@id": "https://beareab.com/#beareab",
         "name": "beareab",
         "url": "https://beareab.com/",
-        "founder": {
-          "@id": "https://beareab.com/#gabriellong"
-        },
+        "image": "https://beareab.com/assets/psion.jpg",
         "genre": ["Skramz", "Post-hardcore", "Experimental", "Noise Rock"],
-        "image": "https://beareab.com/assets/psion-cover.jpg",
+        "founder": { "@id": "https://beareab.com/#gabriellong" },
         "sameAs": [
           "https://open.spotify.com/artist/6T4MfTo8RcW1jtS8Odu2M4",
           "https://beareab.bandcamp.com",
@@ -67,27 +123,10 @@
           "https://rateyourmusic.com/artist/beareab",
           "https://musicbrainz.org/artist/31afd001-7593-42e9-bf30-357fe4d3602a"
         ]
-      },
-      {
-        "@type": "WebPage",
-        "@id": "https://beareab.com/connect.html",
-        "url": "https://beareab.com/connect.html",
-        "name": "Connect with beareab",
-        "about": {
-          "@id": "https://beareab.com/#beareab"
-        }
       }
     ]
   }
   </script>
-
-  <title>Connect – beareab</title>
-  <meta name="description" content="Follow beareab on all your favorite social and streaming platforms.">
-  <link rel="canonical" href="https://beareab.com/connect.html">
-  <link rel="icon" href="favicon.ico">
-
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="site-header">
@@ -109,18 +148,18 @@
     </div>
 
     <div class="connect-grid">
-      <a class="platform-card" href="https://open.spotify.com/artist/6T4MfTo8RcW1jtS8Odu2M4" target="_blank"><h3>Spotify</h3><p>Listen on Spotify</p></a>
-      <a class="platform-card" href="https://beareab.bandcamp.com" target="_blank"><h3>Bandcamp</h3><p>Stream &amp; buy on Bandcamp</p></a>
-      <a class="platform-card" href="https://music.apple.com/us/artist/beareab/1820548198" target="_blank"><h3>Apple Music</h3><p>Listen on Apple Music</p></a>
-      <a class="platform-card" href="https://tidal.com/artist/62132055" target="_blank"><h3>Tidal</h3><p>Listen on Tidal</p></a>
-      <a class="platform-card" href="https://www.deezer.com/mx/artist/330585431" target="_blank"><h3>Deezer</h3><p>Listen on Deezer</p></a>
-      <a class="platform-card" href="https://www.youtube.com/@beareaband" target="_blank"><h3>YouTube</h3><p>Watch on YouTube</p></a>
-      <a class="platform-card" href="https://www.instagram.com/gblongz" target="_blank"><h3>Instagram</h3><p>Follow on Instagram</p></a>
-      <a class="platform-card" href="https://twitter.com/beareaband" target="_blank"><h3>Twitter</h3><p>Follow on Twitter</p></a>
-      <a class="platform-card" href="https://www.tiktok.com/@beareaband" target="_blank"><h3>TikTok</h3><p>Watch on TikTok</p></a>
-      <a class="platform-card" href="https://bsky.app/profile/beareab.bsky.social" target="_blank"><h3>Bluesky</h3><p>Follow on Bluesky</p></a>
-      <a class="platform-card" href="https://rateyourmusic.com/artist/beareab" target="_blank"><h3>Rate Your Music</h3><p>See ratings &amp; reviews</p></a>
-      <a class="platform-card" href="https://musicbrainz.org/artist/31afd001-7593-42e9-bf30-357fe4d3602a" target="_blank"><h3>MusicBrainz</h3><p>Profile on MusicBrainz</p></a>
+      <a class="platform-card" href="https://open.spotify.com/artist/6T4MfTo8RcW1jtS8Odu2M4" target="_blank" rel="noopener noreferrer"><h3>Spotify</h3><p>Listen on Spotify</p></a>
+      <a class="platform-card" href="https://beareab.bandcamp.com" target="_blank" rel="noopener noreferrer"><h3>Bandcamp</h3><p>Stream &amp; buy on Bandcamp</p></a>
+      <a class="platform-card" href="https://music.apple.com/us/artist/beareab/1820548198" target="_blank" rel="noopener noreferrer"><h3>Apple Music</h3><p>Listen on Apple Music</p></a>
+      <a class="platform-card" href="https://tidal.com/artist/62132055" target="_blank" rel="noopener noreferrer"><h3>Tidal</h3><p>Listen on Tidal</p></a>
+      <a class="platform-card" href="https://www.deezer.com/mx/artist/330585431" target="_blank" rel="noopener noreferrer"><h3>Deezer</h3><p>Listen on Deezer</p></a>
+      <a class="platform-card" href="https://www.youtube.com/@beareaband" target="_blank" rel="noopener noreferrer"><h3>YouTube</h3><p>Watch on YouTube</p></a>
+      <a class="platform-card" href="https://www.instagram.com/gblongz" target="_blank" rel="noopener noreferrer"><h3>Instagram</h3><p>Follow on Instagram</p></a>
+      <a class="platform-card" href="https://twitter.com/beareaband" target="_blank" rel="noopener noreferrer"><h3>Twitter</h3><p>Follow on Twitter</p></a>
+      <a class="platform-card" href="https://www.tiktok.com/@beareaband" target="_blank" rel="noopener noreferrer"><h3>TikTok</h3><p>Watch on TikTok</p></a>
+      <a class="platform-card" href="https://bsky.app/profile/beareab.bsky.social" target="_blank" rel="noopener noreferrer"><h3>Bluesky</h3><p>Follow on Bluesky</p></a>
+      <a class="platform-card" href="https://rateyourmusic.com/artist/beareab" target="_blank" rel="noopener noreferrer"><h3>Rate Your Music</h3><p>See ratings &amp; reviews</p></a>
+      <a class="platform-card" href="https://musicbrainz.org/artist/31afd001-7593-42e9-bf30-357fe4d3602a" target="_blank" rel="noopener noreferrer"><h3>MusicBrainz</h3><p>Profile on MusicBrainz</p></a>
     </div>
   </div>
 
