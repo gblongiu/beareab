@@ -1,0 +1,330 @@
+{
+  "spectacle": {
+    "date": "2025-09-04",
+    "dateModified": "2026-07-27",
+    "releaseType": "SingleRelease",
+    "description": "A first glimpse of a full-length concept album centered on hauntings, memory, place, and the spectre of reality.",
+    "seoDescription": "“Spectacle” by beareab explores hauntings, memory, place, and the spectre of reality. Read the lyrics, stream the song, or download FLAC and MP3 free.",
+    "artwork": "/assets/downloads/beareab-spectacle.jpg",
+    "artworkAlt": "Black-and-white photograph of a weathered house beneath a cloudy sky",
+    "downloads": [
+      {
+        "name": "FLAC",
+        "size": "20 MB",
+        "url": "https://github.com/gblongiu/beareab/releases/download/direct-downloads-2026-07-25/beareab-spectacle-2025-flac.zip",
+        "label": "Download Spectacle as a lossless FLAC ZIP, 20 megabytes",
+        "encodingFormat": "audio/flac"
+      },
+      {
+        "name": "MP3 320",
+        "size": "6.7 MB",
+        "url": "https://github.com/gblongiu/beareab/releases/download/direct-downloads-2026-07-25/beareab-spectacle-2025-mp3-320.zip",
+        "label": "Download Spectacle as a 320 kilobits per second MP3 ZIP, 6.7 megabytes",
+        "encodingFormat": "audio/mpeg"
+      },
+      {
+        "name": "MP3 128",
+        "size": "2.6 MB",
+        "url": "https://github.com/gblongiu/beareab/releases/download/direct-downloads-2026-07-25/beareab-spectacle-2025-mp3.zip",
+        "label": "Download Spectacle as a compact 128 kilobits per second MP3 ZIP, 2.6 megabytes",
+        "encodingFormat": "audio/mpeg"
+      }
+    ]
+  },
+  "psion": {
+    "date": "2025-07-23",
+    "dateModified": "2026-07-27",
+    "releaseType": "EPRelease",
+    "description": "Three songs shaped over five years, moving from spoken word and melody into screaming and collapse.",
+    "seoDescription": "Psion by beareab: three songs moving from spoken word and melody into screaming and collapse. Read the lyrics, stream the EP, or download it free.",
+    "artwork": "/assets/downloads/beareab-psion.jpg",
+    "artworkAlt": "Thick abstract paint in red, green, blue, black, white, and yellow",
+    "downloads": [
+      {
+        "name": "FLAC",
+        "size": "68 MB",
+        "url": "https://github.com/gblongiu/beareab/releases/download/direct-downloads-2026-07-25/beareab-psion-2025-flac.zip",
+        "label": "Download Psion as a lossless FLAC ZIP, 68 megabytes",
+        "encodingFormat": "audio/flac"
+      },
+      {
+        "name": "MP3 320",
+        "size": "29 MB",
+        "url": "https://github.com/gblongiu/beareab/releases/download/direct-downloads-2026-07-25/beareab-psion-2025-mp3-320.zip",
+        "label": "Download Psion as a 320 kilobits per second MP3 ZIP, 29 megabytes",
+        "encodingFormat": "audio/mpeg"
+      },
+      {
+        "name": "MP3 128",
+        "size": "7.7 MB",
+        "url": "https://github.com/gblongiu/beareab/releases/download/direct-downloads-2026-07-25/beareab-psion-2025-mp3.zip",
+        "label": "Download Psion as a compact 128 kilobits per second MP3 ZIP, 7.7 megabytes",
+        "encodingFormat": "audio/mpeg"
+      }
+    ],
+    "notes": [
+      "Psion took shape across five years. One song was written in the isolation of 2020, at the height of the pandemic, when everything felt unreal. The others grew from riffs written in spring 2023. The vocals and drums were completed during the week before release.",
+      "The record moves quickly without becoming careless. Spoken word unravels into screaming; melodic foundations collapse into dissonance. The rawness is deliberate, and the dense layering gives emotional catharsis a physical form.",
+      "Psion emerged from recognizing my own emotional patterns and the ways I contributed to the damage I believed was being done to me. The songs carry that recognition without pretending it brought resolution. What first appeared to be a fight with the outside world was always internal."
+    ]
+  },
+  "eyesplice-split": {
+    "date": "2025-07-02",
+    "dateModified": "2026-07-27",
+    "releaseType": "EPRelease",
+    "description": "Love and Problems, the two beareab recordings from the four-song split with eyesplice.",
+    "seoDescription": "The beareab / eyesplice split pairs “Love” and “Problems” with two collaborator tracks. Read beareab’s lyrics, stream its songs, and download them free.",
+    "artwork": "/assets/downloads/beareab-eyesplice.jpg",
+    "artworkAlt": "Overlapping neon circles and fine looping lines on black",
+    "schemaTrackCount": null,
+    "schemaDuration": null,
+    "rightsNote": "Only the beareab recordings are hosted here. The eyesplice tracks are not rehosted without explicit collaborator permission.",
+    "downloads": [
+      {
+        "name": "FLAC",
+        "size": "37 MB",
+        "url": "https://github.com/gblongiu/beareab/releases/download/direct-downloads-2026-07-25/beareab-eyesplice-beareab-tracks-2025-flac.zip",
+        "label": "Download the two beareab tracks from the eyesplice split as a lossless FLAC ZIP, 37 megabytes",
+        "encodingFormat": "audio/flac"
+      },
+      {
+        "name": "MP3 320",
+        "size": "22 MB",
+        "url": "https://github.com/gblongiu/beareab/releases/download/direct-downloads-2026-07-25/beareab-eyesplice-beareab-tracks-2025-mp3-320.zip",
+        "label": "Download the two beareab tracks from the eyesplice split as a 320 kilobits per second MP3 ZIP, 22 megabytes",
+        "encodingFormat": "audio/mpeg"
+      },
+      {
+        "name": "MP3 128",
+        "size": "5.0 MB",
+        "url": "https://github.com/gblongiu/beareab/releases/download/direct-downloads-2026-07-25/beareab-eyesplice-beareab-tracks-2025-mp3.zip",
+        "label": "Download the two beareab tracks from the eyesplice split as a compact 128 kilobits per second MP3 ZIP, 5 megabytes",
+        "encodingFormat": "audio/mpeg"
+      }
+    ]
+  },
+  "solace": {
+    "date": "2025-06-14",
+    "dateModified": "2026-07-27",
+    "releaseType": "AlbumRelease",
+    "description": "A living document of growing up, burning out, beginning again, and finding purpose within anger.",
+    "seoDescription": "Solace by beareab is a 13-track document of growing up, burning out, beginning again, and finding purpose in anger. Stream, read lyrics, and download free.",
+    "artwork": "/assets/downloads/beareab-solace.jpg",
+    "artworkAlt": "Tarot cards arranged on a patterned rug",
+    "downloads": [
+      {
+        "name": "FLAC",
+        "size": "300 MB",
+        "url": "https://github.com/gblongiu/beareab/releases/download/direct-downloads-2026-07-25/beareab-solace-2025-flac.zip",
+        "label": "Download Solace as a lossless FLAC ZIP, 300 megabytes",
+        "encodingFormat": "audio/flac"
+      },
+      {
+        "name": "MP3 320",
+        "size": "161 MB",
+        "url": "https://github.com/gblongiu/beareab/releases/download/direct-downloads-2026-07-25/beareab-solace-2025-mp3-320.zip",
+        "label": "Download Solace as a 320 kilobits per second MP3 ZIP, 161 megabytes",
+        "encodingFormat": "audio/mpeg"
+      },
+      {
+        "name": "MP3 128",
+        "size": "30 MB",
+        "url": "https://github.com/gblongiu/beareab/releases/download/direct-downloads-2026-07-25/beareab-solace-2025-mp3.zip",
+        "label": "Download Solace as a compact 128 kilobits per second MP3 ZIP, 30 megabytes",
+        "encodingFormat": "audio/mpeg"
+      }
+    ]
+  },
+  "nadir": {
+    "date": "2026-04-25",
+    "dateModified": "2026-07-27",
+    "releaseType": "AlbumRelease",
+    "description": "A one-hour electronic work recorded in a single take, shaped by repetition, gradual change, and dissociation.",
+    "seoDescription": "nadir by ucygrx is a one-hour electronic work recorded in one take, shaped by repetition, gradual change, and dissociation. Stream or download it free.",
+    "artwork": "/assets/downloads/ucygrx-nadir.jpg",
+    "artworkAlt": "A bright moon in a purple-blue sky, framed by dark trees",
+    "downloads": [
+      {
+        "name": "FLAC",
+        "size": "194 MB",
+        "url": "https://github.com/gblongiu/beareab/releases/download/direct-downloads-2026-07-25/ucygrx-nadir-2026-flac.zip",
+        "label": "Download nadir as a lossless FLAC ZIP, 194 megabytes",
+        "encodingFormat": "audio/flac"
+      },
+      {
+        "name": "MP3 320",
+        "size": "136 MB",
+        "url": "https://github.com/gblongiu/beareab/releases/download/direct-downloads-2026-07-25/ucygrx-nadir-2026-mp3-320.zip",
+        "label": "Download nadir as a 320 kilobits per second MP3 ZIP, 136 megabytes",
+        "encodingFormat": "audio/mpeg"
+      },
+      {
+        "name": "MP3 128",
+        "size": "55 MB",
+        "url": "https://github.com/gblongiu/beareab/releases/download/direct-downloads-2026-07-25/ucygrx-nadir-2026-mp3.zip",
+        "label": "Download nadir as a compact 128 kilobits per second MP3 ZIP, 55 megabytes",
+        "encodingFormat": "audio/mpeg"
+      }
+    ]
+  },
+  "mordant": {
+    "date": "2026-04-21",
+    "dateModified": "2026-07-27",
+    "releaseType": "AlbumRelease",
+    "description": "A continuous one-hour electronic recording by ucygrx.",
+    "seoDescription": "mordant by ucygrx is a continuous one-hour electronic recording. Stream the complete work or download it free in lossless FLAC and MP3 formats.",
+    "artwork": "/assets/downloads/ucygrx-mordant.jpg",
+    "artworkAlt": "Glitch artwork of repeated laptop screens spiraling through blue and violet",
+    "downloads": [
+      {
+        "name": "FLAC",
+        "size": "253 MB",
+        "url": "https://github.com/gblongiu/beareab/releases/download/direct-downloads-2026-07-25/ucygrx-mordant-2026-flac.zip",
+        "label": "Download mordant as a lossless FLAC ZIP, 253 megabytes",
+        "encodingFormat": "audio/flac"
+      },
+      {
+        "name": "MP3 320",
+        "size": "138 MB",
+        "url": "https://github.com/gblongiu/beareab/releases/download/direct-downloads-2026-07-25/ucygrx-mordant-2026-mp3-320.zip",
+        "label": "Download mordant as a 320 kilobits per second MP3 ZIP, 138 megabytes",
+        "encodingFormat": "audio/mpeg"
+      },
+      {
+        "name": "MP3 128",
+        "size": "55 MB",
+        "url": "https://github.com/gblongiu/beareab/releases/download/direct-downloads-2026-07-25/ucygrx-mordant-2026-mp3.zip",
+        "label": "Download mordant as a compact 128 kilobits per second MP3 ZIP, 55 megabytes",
+        "encodingFormat": "audio/mpeg"
+      }
+    ]
+  },
+  "archivulance": {
+    "date": "2026-03-13",
+    "dateModified": "2026-07-27",
+    "releaseType": "AlbumRelease",
+    "description": "Thirteen compact electronic forms. Their encoded titles mark a restless internal logic.",
+    "seoDescription": "archivulance by ucygrx presents 13 compact electronic forms whose encoded titles trace a restless internal logic. Stream or download the album free.",
+    "artwork": "/assets/downloads/ucygrx-archivulance.jpg",
+    "artworkAlt": "Black calligraphic loops and a narrow title strip on white",
+    "downloads": [
+      {
+        "name": "FLAC",
+        "size": "278 MB",
+        "url": "https://github.com/gblongiu/beareab/releases/download/direct-downloads-2026-07-25/ucygrx-archivulance-2026-flac.zip",
+        "label": "Download archivulance as a lossless FLAC ZIP, 278 megabytes",
+        "encodingFormat": "audio/flac"
+      },
+      {
+        "name": "MP3 320",
+        "size": "128 MB",
+        "url": "https://github.com/gblongiu/beareab/releases/download/direct-downloads-2026-07-25/ucygrx-archivulance-2026-mp3-320.zip",
+        "label": "Download archivulance as a 320 kilobits per second MP3 ZIP, 128 megabytes",
+        "encodingFormat": "audio/mpeg"
+      },
+      {
+        "name": "MP3 128",
+        "size": "50 MB",
+        "url": "https://github.com/gblongiu/beareab/releases/download/direct-downloads-2026-07-25/ucygrx-archivulance-2026-mp3.zip",
+        "label": "Download archivulance as a compact 128 kilobits per second MP3 ZIP, 50 megabytes",
+        "encodingFormat": "audio/mpeg"
+      }
+    ]
+  },
+  "social-media-graveyard": {
+    "date": "2026-03-07",
+    "dateModified": "2026-07-27",
+    "releaseType": "SingleRelease",
+    "description": "A continuous ten-minute electronic recording by ucygrx, released 7 March 2026.",
+    "seoDescription": "social media graveyard by ucygrx is a continuous ten-minute electronic recording. Stream it or download it free in lossless FLAC and MP3 formats.",
+    "artwork": "/assets/downloads/ucygrx-social-media-graveyard.jpg",
+    "artworkAlt": "Glitched red, green, and blue bands obscuring a dark building",
+    "downloads": [
+      {
+        "name": "FLAC",
+        "size": "46 MB",
+        "url": "https://github.com/gblongiu/beareab/releases/download/direct-downloads-2026-07-25/ucygrx-social-media-graveyard-2026-flac.zip",
+        "label": "Download social media graveyard as a lossless FLAC ZIP, 46 megabytes",
+        "encodingFormat": "audio/flac"
+      },
+      {
+        "name": "MP3 320",
+        "size": "23 MB",
+        "url": "https://github.com/gblongiu/beareab/releases/download/direct-downloads-2026-07-25/ucygrx-social-media-graveyard-2026-mp3-320.zip",
+        "label": "Download social media graveyard as a 320 kilobits per second MP3 ZIP, 23 megabytes",
+        "encodingFormat": "audio/mpeg"
+      },
+      {
+        "name": "MP3 128",
+        "size": "9.6 MB",
+        "url": "https://github.com/gblongiu/beareab/releases/download/direct-downloads-2026-07-25/ucygrx-social-media-graveyard-2026-mp3.zip",
+        "label": "Download social media graveyard as a compact 128 kilobits per second MP3 ZIP, 9.6 megabytes",
+        "encodingFormat": "audio/mpeg"
+      }
+    ]
+  },
+  "valentine": {
+    "date": "2026-03-06",
+    "dateModified": "2026-07-27",
+    "releaseType": "SingleRelease",
+    "description": "A continuous twenty-four-minute electronic recording by ucygrx, released 6 March 2026.",
+    "seoDescription": "valentine by ucygrx is a continuous twenty-four-minute electronic recording. Stream it or download it free in lossless FLAC and MP3 formats.",
+    "artwork": "/assets/downloads/ucygrx-valentine.jpg",
+    "artworkAlt": "Soft pixelated checker pattern in pink, violet, and blue",
+    "downloads": [
+      {
+        "name": "FLAC",
+        "size": "99 MB",
+        "url": "https://github.com/gblongiu/beareab/releases/download/direct-downloads-2026-07-25/ucygrx-valentine-2026-flac.zip",
+        "label": "Download valentine as a lossless FLAC ZIP, 99 megabytes",
+        "encodingFormat": "audio/flac"
+      },
+      {
+        "name": "MP3 320",
+        "size": "55 MB",
+        "url": "https://github.com/gblongiu/beareab/releases/download/direct-downloads-2026-07-25/ucygrx-valentine-2026-mp3-320.zip",
+        "label": "Download valentine as a 320 kilobits per second MP3 ZIP, 55 megabytes",
+        "encodingFormat": "audio/mpeg"
+      },
+      {
+        "name": "MP3 128",
+        "size": "22 MB",
+        "url": "https://github.com/gblongiu/beareab/releases/download/direct-downloads-2026-07-25/ucygrx-valentine-2026-mp3.zip",
+        "label": "Download valentine as a compact 128 kilobits per second MP3 ZIP, 22 megabytes",
+        "encodingFormat": "audio/mpeg"
+      }
+    ]
+  },
+  "stigmatech": {
+    "date": "2019-05-02",
+    "dateModified": "2026-07-27",
+    "releaseType": "EPRelease",
+    "description": "Every loop was performed by hand in real time, keeping pressure, timing, and human imperfection inside the machine.",
+    "seoDescription": "Stigmatech by ucygrx preserves hand-played loops, pressure, timing, and human imperfection inside the machine. Stream or download the four-track release free.",
+    "artwork": "/assets/downloads/ucygrx-stigmatech.jpg",
+    "artworkAlt": "Layered teal, violet, rose, and pale curves rising across a gray field",
+    "downloads": [
+      {
+        "name": "FLAC",
+        "size": "54 MB",
+        "url": "https://github.com/gblongiu/beareab/releases/download/direct-downloads-2026-07-25/ucygrx-stigmatech-2019-flac.zip",
+        "label": "Download Stigmatech as a lossless FLAC ZIP, 54 megabytes",
+        "encodingFormat": "audio/flac"
+      },
+      {
+        "name": "MP3 320",
+        "size": "43 MB",
+        "url": "https://github.com/gblongiu/beareab/releases/download/direct-downloads-2026-07-25/ucygrx-stigmatech-2019-mp3-320.zip",
+        "label": "Download Stigmatech as a 320 kilobits per second MP3 ZIP, 43 megabytes",
+        "encodingFormat": "audio/mpeg"
+      },
+      {
+        "name": "MP3 128",
+        "size": "17 MB",
+        "url": "https://github.com/gblongiu/beareab/releases/download/direct-downloads-2026-07-25/ucygrx-stigmatech-2019-mp3.zip",
+        "label": "Download Stigmatech as a compact 128 kilobits per second MP3 ZIP, 17 megabytes",
+        "encodingFormat": "audio/mpeg"
+      }
+    ]
+  }
+}

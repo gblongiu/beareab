@@ -1,0 +1,22 @@
+# Keep public search indexing and user-directed retrieval available.
+User-agent: *
+Allow: /
+
+# Decline known automated model-training crawlers.
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+# Point search engines to the canonical sitemap.
+Sitemap: https://beareab.com/sitemap.xml

@@ -1,0 +1,246 @@
+{
+  "families": [
+    {
+      "basename": "beareab-eyesplice",
+      "outputs": {
+        "assets/optimized/beareab-eyesplice-480.avif": "3867eee5c40d3e18a6c12641af8d2999024cf2ef3fc9d388d86b8e6e0390face",
+        "assets/optimized/beareab-eyesplice-480.webp": "eb85028ebb67313a806dac792a141d311ff50e85f0fb2f91975d6dea660b233b",
+        "assets/optimized/beareab-eyesplice-700.avif": "14efff0364d708d7a78fd025c2eb72ca3582af19f7ca686c8cbdcaf91062094b",
+        "assets/optimized/beareab-eyesplice-700.webp": "3f1ea7de161feb01fc96eedf4dba1caefc410f3662180641f06c659fde8eb3ed"
+      },
+      "source": "assets/downloads/beareab-eyesplice.jpg",
+      "source_sha256": "14cf5d5b45f39bbe26a5f4be35988f16383bb0353e2e3e25f09dafc510ca4889",
+      "widths": [
+        480,
+        700
+      ]
+    },
+    {
+      "basename": "beareab-psion",
+      "outputs": {
+        "assets/optimized/beareab-psion-480.avif": "211b177714985922ae185dd2cd1e5b26d52180427110bedd5c55b7f069a8e2af",
+        "assets/optimized/beareab-psion-480.webp": "2c08891cb0786a25cd5e60c7a3644cc9296db34cef4380771abc2ef8e2562870",
+        "assets/optimized/beareab-psion-700.avif": "3071a68ea67d7c89dd5f0c95c3166bdb1e48a63b66cef2035cf181b0d266d24c",
+        "assets/optimized/beareab-psion-700.webp": "2c813e44bb24eccd6f9ea3dc451615060f6240104311a10f714bc752be8599d6"
+      },
+      "source": "assets/downloads/beareab-psion.jpg",
+      "source_sha256": "68cc9ed3417b54952b2bcb6b2751d4ba976c187257cc4d2f8edd4b8af5f280ac",
+      "widths": [
+        480,
+        700
+      ]
+    },
+    {
+      "basename": "beareab-solace",
+      "outputs": {
+        "assets/optimized/beareab-solace-480.avif": "695ea4876fbc80feb9f7d78a9515597885bbf8406bfd0a6b422db04bb9c13241",
+        "assets/optimized/beareab-solace-480.webp": "24bd53012777e369bb74f0c32bc120feab20203953d69b1b10391e951335d93e",
+        "assets/optimized/beareab-solace-700.avif": "c94df008e74f06b429f522d915cf092f4c80563f852991210d0ff737c5deb0d6",
+        "assets/optimized/beareab-solace-700.webp": "0630702e705ea9fadf4e3ad3371638e73bb013cfbef5dfb9f4c003ba8c371552"
+      },
+      "source": "assets/downloads/beareab-solace.jpg",
+      "source_sha256": "4cc53066cdfdff4a700fe5b8e66da7efdd4aa2b5b133cc0839e142002ced6bc1",
+      "widths": [
+        480,
+        700
+      ]
+    },
+    {
+      "basename": "beareab-spectacle",
+      "outputs": {
+        "assets/optimized/beareab-spectacle-480.avif": "1a25233d0b3892e4b98023a0d878b63d0f1e25bd26c251459d95af82acfaa661",
+        "assets/optimized/beareab-spectacle-480.webp": "fe7232f92fcf2f7488dc506bdce8d1c17a2a8f50f5fe2b60cb0f14ed6d4ae8ca",
+        "assets/optimized/beareab-spectacle-700.avif": "96611a74519cae94dfe5adccedf17da8ff96f02da3a7a83f706b6dce382727e6",
+        "assets/optimized/beareab-spectacle-700.webp": "b9d218c254cb3299bb55908c9fdd5543d395295b2694193a4f9fdef2c9b92e1c"
+      },
+      "source": "assets/downloads/beareab-spectacle.jpg",
+      "source_sha256": "a524ed611f0921d2a2281622d2fa93539b868d4573b0ffd06a9113bc6214fb29",
+      "widths": [
+        480,
+        700
+      ]
+    },
+    {
+      "basename": "ucygrx-archivulance",
+      "outputs": {
+        "assets/optimized/ucygrx-archivulance-480.avif": "6092c693a2cbaf925b90c6c54f638841821cd726554b46ada779f2d002335f34",
+        "assets/optimized/ucygrx-archivulance-480.webp": "fcbc1de75b6ff3e08e9f2a2342d41ae69f5fc0a4982f328df42233975dc1a0da",
+        "assets/optimized/ucygrx-archivulance-700.avif": "5b50d60c53a058ee6c1c215c44c72aaaa7218f73b5748758df9356a8c2d4ac5a",
+        "assets/optimized/ucygrx-archivulance-700.webp": "ba2f2f3d11ab079e23b67de73f956e99ead219bf99040bba3723827c03db714f"
+      },
+      "source": "assets/downloads/ucygrx-archivulance.jpg",
+      "source_sha256": "43cc62170ca453bff2b9bb08e636a4b6c0a7066dc1526506d6570262a6d653cd",
+      "widths": [
+        480,
+        700
+      ]
+    },
+    {
+      "basename": "ucygrx-mordant",
+      "outputs": {
+        "assets/optimized/ucygrx-mordant-480.avif": "3b484a4a7112922f7e1b838a717650934fe1416636d4b6dc4440478d32860a08",
+        "assets/optimized/ucygrx-mordant-480.webp": "954efe08a6f1cee3daa74ab4bce5bca02aff83567b19d30646117b8b4b3d7cb2",
+        "assets/optimized/ucygrx-mordant-700.avif": "72773208fd915f98cb237ffc0765a330ec41135ceb5008a00c89836db373b7f8",
+        "assets/optimized/ucygrx-mordant-700.webp": "cef66feb913d64f54ab9bc706d92aafcce11b11427e3eeab219656de90e875cf"
+      },
+      "source": "assets/downloads/ucygrx-mordant.jpg",
+      "source_sha256": "c48349b56f4eae1b3b9b37aa1857c017a077e43e3ff5c18735ff271638322555",
+      "widths": [
+        480,
+        700
+      ]
+    },
+    {
+      "basename": "ucygrx-nadir",
+      "outputs": {
+        "assets/optimized/ucygrx-nadir-480.avif": "3c9a3a5758cdeba7cc6046bd8560d66e23658665de30eb150ce9c1bf60ea58db",
+        "assets/optimized/ucygrx-nadir-480.webp": "8ab97e1ca3e82554148293b65952c94770f3073c4c2b2543add2fc47bb755d79",
+        "assets/optimized/ucygrx-nadir-700.avif": "5478e5b81d0ad4a89b1baec6ecc952b59f11a09f349cea7d3820a22e7d5a7b21",
+        "assets/optimized/ucygrx-nadir-700.webp": "bfc151f7ec925535281866c386826ad29d9301c470b202ca3bfb500d3a8e1893"
+      },
+      "source": "assets/downloads/ucygrx-nadir.jpg",
+      "source_sha256": "a904174ae6cd82f353da2347045c737c3d76460850be7c30adf2de6be2ff696c",
+      "widths": [
+        480,
+        700
+      ]
+    },
+    {
+      "basename": "ucygrx-social-media-graveyard",
+      "outputs": {
+        "assets/optimized/ucygrx-social-media-graveyard-480.avif": "8ce6b0b19c3049fff77808eb0b6216d9cb575f40c12ddce1e042d2a839f40424",
+        "assets/optimized/ucygrx-social-media-graveyard-480.webp": "0de14dc8d8620d0bb9b35d60d97281974dbdf4bbcd4b86da8bac8b823b2a928a",
+        "assets/optimized/ucygrx-social-media-graveyard-700.avif": "e7680f5104be05c2f70ce75cd2cec16527ff7c0d54d526d765e39b6eb79e5700",
+        "assets/optimized/ucygrx-social-media-graveyard-700.webp": "373545cb28b6cdd5d2d9d5e0902ff9c2d4b39bf986c29050ade64001a3420156"
+      },
+      "source": "assets/downloads/ucygrx-social-media-graveyard.jpg",
+      "source_sha256": "62bbcd6149bc842bfc13d1c562f01a02fe2abe749455b255adcefff226a27d60",
+      "widths": [
+        480,
+        700
+      ]
+    },
+    {
+      "basename": "ucygrx-stigmatech",
+      "outputs": {
+        "assets/optimized/ucygrx-stigmatech-480.avif": "6fe015e63dd009d1ec1254fa8d2f4ccbd602f093cc87e1a3a049e6ac6f2b3820",
+        "assets/optimized/ucygrx-stigmatech-480.webp": "2fb26778a4a43df0f2b0e62540df293693039861b14bcf9ea3a339682672fb70",
+        "assets/optimized/ucygrx-stigmatech-700.avif": "f7b68dd1e8514914008477ca41765ab40af48c765b5b5aa588e76be340cad717",
+        "assets/optimized/ucygrx-stigmatech-700.webp": "4a500d18531aeabf26acfff76c3d465c7b465d98a3578bd04a369535b5c1cfdd"
+      },
+      "source": "assets/downloads/ucygrx-stigmatech.jpg",
+      "source_sha256": "b7b20af42dfefe1ab31deb3cb6fc26c0eeadf89ed1713e88bb9a22a60968a3a8",
+      "widths": [
+        480,
+        700
+      ]
+    },
+    {
+      "basename": "ucygrx-valentine",
+      "outputs": {
+        "assets/optimized/ucygrx-valentine-480.avif": "eec95519b680ba49e808d17d3806a276963543ae0931e159963e67674531c06d",
+        "assets/optimized/ucygrx-valentine-480.webp": "9b9b260800f74a690220fc3c3d204233f49487a65d09d27bdf6163f596f246e9",
+        "assets/optimized/ucygrx-valentine-700.avif": "971ceee662b59b5786f533e3c0247bab438b477dcd25fa989e8a3408b9a76b99",
+        "assets/optimized/ucygrx-valentine-700.webp": "240b88cc0b3ced63c61c3a37aa78f9f31d55d6fa5c7966a48a7a19e1f590fb6c"
+      },
+      "source": "assets/downloads/ucygrx-valentine.jpg",
+      "source_sha256": "7cb3b9484745344f11e5974a76f2429b5e68f8d698d43541ac1bacb84db1827c",
+      "widths": [
+        480,
+        700
+      ]
+    },
+    {
+      "basename": "headshot",
+      "outputs": {
+        "assets/optimized/headshot-480.avif": "1c76eff95f909d9cdd14a59455eb7be2d9746db5706f071d58fce80ef3223807",
+        "assets/optimized/headshot-480.webp": "0a7eb06c5ba00c20f12ff8a195d99acef926e5326957f3845678cf271bdd841e",
+        "assets/optimized/headshot-960.avif": "3b8d646791b8e45f620c96e6a3aaaad743a4b300aa06a96a699302aaa7cea370",
+        "assets/optimized/headshot-960.webp": "79b8ed499b2c20a3b6aca3bdb89cc643faef6f786e569be0de6fdefd363ce1e3"
+      },
+      "source": "assets/headshot.jpg",
+      "source_sha256": "82c504a45183b5bef49caf4ee8389efd084837e7988d3bf5691c02e7a1dfd46a",
+      "widths": [
+        480,
+        960
+      ]
+    },
+    {
+      "basename": "ucygrx-nadir-project",
+      "outputs": {
+        "assets/optimized/ucygrx-nadir-project-480.avif": "b6eca91bbb4eefc2147269718d44609e1ea2a110e0eb3d5c247770e11cc65b76",
+        "assets/optimized/ucygrx-nadir-project-480.webp": "7d46f2ac950964b56e8ffd47aa30ee10e47bdf0c15d95c3c3e849866cb25a881",
+        "assets/optimized/ucygrx-nadir-project-960.avif": "b126e01b9714c09a5e402fab636ee6b119a0af4681ca15717b736bda7315919f",
+        "assets/optimized/ucygrx-nadir-project-960.webp": "f08170b15f3c5f1cfda93f335220c251d6970c59cdcc8c19334de74b0b7a1591"
+      },
+      "source": "assets/ucygrx-nadir.jpg",
+      "source_sha256": "40e08f2afbc96196049ef561ba8b21fd14459ce9811e16ef0dfdfd04d26d1d18",
+      "widths": [
+        480,
+        960
+      ]
+    },
+    {
+      "basename": "the-imitation-zone",
+      "outputs": {
+        "assets/optimized/the-imitation-zone-480.avif": "451b0a7fd1c0252edd99a9a07a8a6016b4e76299992eaf6fc35c9711631b6cb9",
+        "assets/optimized/the-imitation-zone-480.webp": "0ba191c5aa334f6eb2719fe71bcf4a2c2735be5a7716b7fc081841103e9ec942",
+        "assets/optimized/the-imitation-zone-960.avif": "369331e92f305e979ceb6baa83cf0bf4d3b8df253e879c1e9cd2d51138f4b59f",
+        "assets/optimized/the-imitation-zone-960.webp": "820850a5da7e458a1496bc0b5bb633d525f46a1ed8a2f611286c1058f710c11c"
+      },
+      "source": "assets/theimitationzone.jpeg",
+      "source_sha256": "38a1c829f6f319d9017eccc26d8c82fa9317079c6b39e48657160174d012ec18",
+      "widths": [
+        480,
+        960
+      ]
+    },
+    {
+      "basename": "psion-display",
+      "outputs": {
+        "assets/optimized/psion-display-480.avif": "779f51f5795818de7370b8d3770bc5395910178c31ad39677474f3b958d4f9da",
+        "assets/optimized/psion-display-480.webp": "2f378b4b2c9a022bfba47782376c07a79f476436cb96c06d00946d31feb87858",
+        "assets/optimized/psion-display-960.avif": "7f5775e20b3fd6933aee10138c09d4a05409c1c00470e650686d8a3016a8f640",
+        "assets/optimized/psion-display-960.webp": "a0538603d82f1af2087e6e8b3d73f26f7127369cc800ed9a4d043bbda5ab9104"
+      },
+      "source": "assets/psion-display.jpg",
+      "source_sha256": "a943b365bd2e4631d856be33ca64113eeeba5b9caed1153c01098c45b7e8a53c",
+      "widths": [
+        480,
+        960
+      ]
+    },
+    {
+      "basename": "eyesplice-display",
+      "outputs": {
+        "assets/optimized/eyesplice-display-480.avif": "f6cd49f96005ad17a524841c6472d377405173bbb8c700051c499e987c0f8c84",
+        "assets/optimized/eyesplice-display-480.webp": "1e4a9f10fc63114b5a45c7a2e05107456043a5a77727560c33135fe872b272f4",
+        "assets/optimized/eyesplice-display-960.avif": "d978f1991e8245a66b2387f06122d0957c2959893d23aaeab946ec6782fcca1b",
+        "assets/optimized/eyesplice-display-960.webp": "b7cc868b54bb19e143c820dd2ade623222795d96d30114d31e326ef00bfd670c"
+      },
+      "source": "assets/beareab-eyesplice-display.jpg",
+      "source_sha256": "2a1e1d64748fbe5029f8fa10bd9b86368fd75a7e1d420ff597c5f8b7e10d7968",
+      "widths": [
+        480,
+        960
+      ]
+    },
+    {
+      "basename": "solace-display",
+      "outputs": {
+        "assets/optimized/solace-display-480.avif": "9ab2a20442ee16e71f267dd27eb307bec7bb0fb350c9858ce0d459be1a67334c",
+        "assets/optimized/solace-display-480.webp": "0814d37469e2ed97d97fcf2f9c41edf3b5daf5199c4885d9907a45fc464e6c3f",
+        "assets/optimized/solace-display-960.avif": "1ca2aae781d1e89813f1e61efba59c9d9607647e1faa76081bb68d7c7ea0b68e",
+        "assets/optimized/solace-display-960.webp": "78ed2e99f3e13b279a063f327821dbe0d6f7be4764bc85cb302b3e58bcdade3e"
+      },
+      "source": "assets/solace-display.jpg",
+      "source_sha256": "9760ec256df0585ac5c706af551f902c20e9b8198d99865d648b24d5290240a5",
+      "widths": [
+        480,
+        960
+      ]
+    }
+  ],
+  "recipe": "imagemagick-v1:webp-q78:avif-q45:heic-speed6:strip",
+  "version": 1
+}

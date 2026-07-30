@@ -1,0 +1,344 @@
+{
+  "spectacle": {
+    "artist": "beareab",
+    "title": "Spectacle",
+    "tracks": [
+      {
+        "number": 1,
+        "title": "Spectacle",
+        "duration": 160,
+        "source": "https://github.com/gblongiu/beareab/releases/download/stream-audio-v1/beareab-spectacle-01-spectacle.mp3",
+        "lyrics": null
+      }
+    ]
+  },
+  "psion": {
+    "artist": "beareab",
+    "title": "Psion",
+    "tracks": [
+      {
+        "number": 1,
+        "title": "Projection",
+        "duration": 98,
+        "source": "https://github.com/gblongiu/beareab/releases/download/stream-audio-v1/beareab-psion-01-projection.mp3",
+        "lyrics": null
+      },
+      {
+        "number": 2,
+        "title": "Shadow",
+        "duration": 251.594,
+        "source": "https://github.com/gblongiu/beareab/releases/download/stream-audio-v1/beareab-psion-02-shadow.mp3",
+        "lyrics": null
+      },
+      {
+        "number": 3,
+        "title": "Channel",
+        "duration": 120,
+        "source": "https://github.com/gblongiu/beareab/releases/download/stream-audio-v1/beareab-psion-03-channel.mp3",
+        "lyrics": null
+      }
+    ]
+  },
+  "eyesplice-split": {
+    "artist": "beareab",
+    "title": "beareab / eyesplice",
+    "tracks": [
+      {
+        "number": 1,
+        "title": "Love",
+        "duration": 144.425,
+        "source": "https://github.com/gblongiu/beareab/releases/download/stream-audio-v1/beareab-eyesplice-01-love.mp3",
+        "lyrics": null
+      },
+      {
+        "number": 3,
+        "title": "Problems",
+        "duration": 171.187,
+        "source": "https://github.com/gblongiu/beareab/releases/download/stream-audio-v1/beareab-eyesplice-03-problems.mp3",
+        "lyrics": null
+      }
+    ]
+  },
+  "solace": {
+    "artist": "beareab",
+    "title": "Solace",
+    "tracks": [
+      {
+        "number": 1,
+        "title": "Limit",
+        "duration": 83.126,
+        "source": "https://github.com/gblongiu/beareab/releases/download/stream-audio-v1/beareab-solace-01-limit.mp3",
+        "lyrics": null
+      },
+      {
+        "number": 2,
+        "title": "Dialect",
+        "duration": 69.473,
+        "source": "https://github.com/gblongiu/beareab/releases/download/stream-audio-v1/beareab-solace-02-dialect.mp3",
+        "lyrics": null
+      },
+      {
+        "number": 3,
+        "title": "Cottage",
+        "duration": 163.681,
+        "source": "https://github.com/gblongiu/beareab/releases/download/stream-audio-v1/beareab-solace-03-cottage.mp3",
+        "lyrics": null,
+        "lyricsCredit": "Quoted lines are from We Have Always Lived in the Castle by Shirley Jackson."
+      },
+      {
+        "number": 4,
+        "title": "Temptation",
+        "duration": 242.87,
+        "source": "https://github.com/gblongiu/beareab/releases/download/stream-audio-v1/beareab-solace-04-temptation.mp3",
+        "lyrics": null,
+        "credits": "Lyrics, vocals, production, and electronics by Paul Isham. Drums by Matt Nichols. Guitar by Gabriel Long."
+      },
+      {
+        "number": 5,
+        "title": "Curve",
+        "duration": 353.462,
+        "source": "https://github.com/gblongiu/beareab/releases/download/stream-audio-v1/beareab-solace-05-curve.mp3",
+        "lyrics": null
+      },
+      {
+        "number": 6,
+        "title": "Figment",
+        "duration": 83.126,
+        "source": "https://github.com/gblongiu/beareab/releases/download/stream-audio-v1/beareab-solace-06-figment.mp3",
+        "lyrics": null
+      },
+      {
+        "number": 7,
+        "title": "Obstruct",
+        "duration": 65.377,
+        "source": "https://github.com/gblongiu/beareab/releases/download/stream-audio-v1/beareab-solace-07-obstruct.mp3",
+        "lyrics": null
+      },
+      {
+        "number": 8,
+        "title": "Prudent",
+        "duration": 163.681,
+        "source": "https://github.com/gblongiu/beareab/releases/download/stream-audio-v1/beareab-solace-08-prudent.mp3",
+        "lyrics": null
+      },
+      {
+        "number": 9,
+        "title": "Mistake",
+        "duration": 170.508,
+        "source": "https://github.com/gblongiu/beareab/releases/download/stream-audio-v1/beareab-solace-09-mistake.mp3",
+        "lyrics": null
+      },
+      {
+        "number": 10,
+        "title": "Hubris",
+        "duration": 121.356,
+        "source": "https://github.com/gblongiu/beareab/releases/download/stream-audio-v1/beareab-solace-10-hubris.mp3",
+        "lyrics": null
+      },
+      {
+        "number": 11,
+        "title": "Desolate",
+        "duration": 158.22,
+        "source": "https://github.com/gblongiu/beareab/releases/download/stream-audio-v1/beareab-solace-11-desolate.mp3",
+        "lyrics": null
+      },
+      {
+        "number": 12,
+        "title": "Orwell",
+        "duration": 72.204,
+        "source": "https://github.com/gblongiu/beareab/releases/download/stream-audio-v1/beareab-solace-12-orwell.mp3",
+        "lyrics": null
+      },
+      {
+        "number": 13,
+        "title": "Cope",
+        "duration": 106.337,
+        "source": "https://github.com/gblongiu/beareab/releases/download/stream-audio-v1/beareab-solace-13-cope.mp3",
+        "lyrics": null
+      }
+    ]
+  },
+  "nadir": {
+    "artist": "ucygrx",
+    "title": "nadir",
+    "tracks": [
+      {
+        "number": 1,
+        "title": "nadir",
+        "duration": 3600.308,
+        "source": "https://github.com/gblongiu/beareab/releases/download/stream-audio-v1/ucygrx-nadir-01-nadir.mp3",
+        "lyrics": null
+      }
+    ]
+  },
+  "mordant": {
+    "artist": "ucygrx",
+    "title": "mordant",
+    "tracks": [
+      {
+        "number": 1,
+        "title": "mordant",
+        "duration": 3600.284,
+        "source": "https://github.com/gblongiu/beareab/releases/download/stream-audio-v1/ucygrx-mordant-01-mordant.mp3",
+        "lyrics": null
+      }
+    ]
+  },
+  "archivulance": {
+    "artist": "ucygrx",
+    "title": "archivulance",
+    "tracks": [
+      {
+        "number": 1,
+        "title": "swtcg",
+        "duration": 94.875,
+        "source": "https://github.com/gblongiu/beareab/releases/download/stream-audio-v1/ucygrx-archivulance-01-swtcg.mp3",
+        "lyrics": null
+      },
+      {
+        "number": 2,
+        "title": "mrkvz",
+        "duration": 201.125,
+        "source": "https://github.com/gblongiu/beareab/releases/download/stream-audio-v1/ucygrx-archivulance-02-mrkvz.mp3",
+        "lyrics": null
+      },
+      {
+        "number": 3,
+        "title": "cltzk",
+        "duration": 213,
+        "source": "https://github.com/gblongiu/beareab/releases/download/stream-audio-v1/ucygrx-archivulance-03-cltzk.mp3",
+        "lyrics": null
+      },
+      {
+        "number": 4,
+        "title": "vhera",
+        "duration": 332.5,
+        "source": "https://github.com/gblongiu/beareab/releases/download/stream-audio-v1/ucygrx-archivulance-04-vhera.mp3",
+        "lyrics": null
+      },
+      {
+        "number": 5,
+        "title": "yrbsa",
+        "duration": 164.5,
+        "source": "https://github.com/gblongiu/beareab/releases/download/stream-audio-v1/ucygrx-archivulance-05-yrbsa.mp3",
+        "lyrics": null
+      },
+      {
+        "number": 6,
+        "title": "jslps",
+        "duration": 279.317,
+        "source": "https://github.com/gblongiu/beareab/releases/download/stream-audio-v1/ucygrx-archivulance-06-jslps.mp3",
+        "lyrics": null
+      },
+      {
+        "number": 7,
+        "title": "cnchr",
+        "duration": 216,
+        "source": "https://github.com/gblongiu/beareab/releases/download/stream-audio-v1/ucygrx-archivulance-07-cnchr.mp3",
+        "lyrics": null
+      },
+      {
+        "number": 8,
+        "title": "wrfnu",
+        "duration": 255.738,
+        "source": "https://github.com/gblongiu/beareab/releases/download/stream-audio-v1/ucygrx-archivulance-08-wrfnu.mp3",
+        "lyrics": null
+      },
+      {
+        "number": 9,
+        "title": "grudn",
+        "duration": 168,
+        "source": "https://github.com/gblongiu/beareab/releases/download/stream-audio-v1/ucygrx-archivulance-09-grudn.mp3",
+        "lyrics": null
+      },
+      {
+        "number": 10,
+        "title": "xbfgr",
+        "duration": 388.32,
+        "source": "https://github.com/gblongiu/beareab/releases/download/stream-audio-v1/ucygrx-archivulance-10-xbfgr.mp3",
+        "lyrics": null
+      },
+      {
+        "number": 11,
+        "title": "ivxeb",
+        "duration": 477.648,
+        "source": "https://github.com/gblongiu/beareab/releases/download/stream-audio-v1/ucygrx-archivulance-11-ivxeb.mp3",
+        "lyrics": null
+      },
+      {
+        "number": 12,
+        "title": "xrnva",
+        "duration": 321.361,
+        "source": "https://github.com/gblongiu/beareab/releases/download/stream-audio-v1/ucygrx-archivulance-12-xrnva.mp3",
+        "lyrics": null
+      },
+      {
+        "number": 13,
+        "title": "scrfx",
+        "duration": 184,
+        "source": "https://github.com/gblongiu/beareab/releases/download/stream-audio-v1/ucygrx-archivulance-13-scrfx.mp3",
+        "lyrics": null
+      }
+    ]
+  },
+  "social-media-graveyard": {
+    "artist": "ucygrx",
+    "title": "social media graveyard",
+    "tracks": [
+      {
+        "number": 1,
+        "title": "social_media_graveyard",
+        "duration": 615.625,
+        "source": "https://github.com/gblongiu/beareab/releases/download/stream-audio-v1/ucygrx-social-media-graveyard-01-social-media-graveyard.mp3",
+        "lyrics": null
+      }
+    ]
+  },
+  "valentine": {
+    "artist": "ucygrx",
+    "title": "valentine",
+    "tracks": [
+      {
+        "number": 1,
+        "title": "valentine",
+        "duration": 1433.752,
+        "source": "https://github.com/gblongiu/beareab/releases/download/stream-audio-v1/ucygrx-valentine-01-valentine.mp3",
+        "lyrics": null
+      }
+    ]
+  },
+  "stigmatech": {
+    "artist": "ucygrx",
+    "title": "Stigmatech",
+    "tracks": [
+      {
+        "number": 1,
+        "title": "birbuvvys",
+        "duration": 295.229,
+        "source": "https://github.com/gblongiu/beareab/releases/download/stream-audio-v1/ucygrx-stigmatech-01-birbuvvys.mp3",
+        "lyrics": null
+      },
+      {
+        "number": 2,
+        "title": "whlucpuslyc",
+        "duration": 231.105,
+        "source": "https://github.com/gblongiu/beareab/releases/download/stream-audio-v1/ucygrx-stigmatech-02-whlucpuslyc.mp3",
+        "lyrics": null
+      },
+      {
+        "number": 3,
+        "title": "ylxcoulhl",
+        "duration": 234.006,
+        "source": "https://github.com/gblongiu/beareab/releases/download/stream-audio-v1/ucygrx-stigmatech-03-ylxcoulhl.mp3",
+        "lyrics": null
+      },
+      {
+        "number": 4,
+        "title": "lucaup",
+        "duration": 341.662,
+        "source": "https://github.com/gblongiu/beareab/releases/download/stream-audio-v1/ucygrx-stigmatech-04-lucaup.mp3",
+        "lyrics": null
+      }
+    ]
+  }
+}

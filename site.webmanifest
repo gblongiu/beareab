@@ -1,0 +1,40 @@
+{
+  "id": "/",
+  "name": "beareab",
+  "short_name": "beareab",
+  "description": "The official website and free music archive for beareab, Gabriel Long’s experimental music project.",
+  "start_url": "/",
+  "scope": "/",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["music", "entertainment"],
+  "display": "standalone",
+  "background_color": "#f3f0e9",
+  "theme_color": "#f3f0e9",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Music",
+      "short_name": "Music",
+      "description": "Stream and download the complete catalog.",
+      "url": "/music.html"
+    },
+    {
+      "name": "Projects",
+      "short_name": "Projects",
+      "description": "Explore ucygrx and The Longtooth Collective.",
+      "url": "/projects.html"
+    }
+  ]
+}
